@@ -1,6 +1,6 @@
-# Inceptez Batch-26 Classwork
+# Inceptez Batch-25 Classwork
 
-Welcome to the **Inceptez Batch-26 Classwork Repository**!  
+Welcome to the **Inceptez Batch-25 Classwork Repository**!  
 This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.
 
 ---
