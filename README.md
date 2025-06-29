@@ -82,5 +82,5 @@ Each structure was explained with basic syntax and examples.
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/Laxminarayen/Inceptez-batch-26-Classwork.git
-   cd Inceptez-batch-26-Classwork
+   git clone https://github.com/Laxminarayen/Inceptez-batch-25-Classwork.git
+   cd Inceptez-batch-25-Classwork
