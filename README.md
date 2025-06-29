@@ -1,59 +1,86 @@
 # Inceptez Batch-26 Classwork
 
 Welcome to the **Inceptez Batch-26 Classwork Repository**!  
-This repository contains all the class materials, exercises, and project files used throughout our Data Science and Machine Learning training program.
+This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.
 
 ---
 
-## 📅 Session 1: Introduction to Python & Software Environments
+## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts
 
-In today's session, we covered the fundamentals of how Python runs, the concept of software, and how different environments allow us to write and execute Python programs.
+In our **first session**, we introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
+
+---
 
 ### ✅ Topics Covered
 
-1. **What is Software?**  
-   - Understanding the difference between system software, application software, and programming languages.
-   - Where Python fits in (Python as a high-level programming language).
+#### 🧠 1. What is Software?
+- Understanding **System Software** vs **Application Software**
+- What is a **Programming Language**, and where does Python fit?
 
-2. **What is a Programming Language?**  
-   - How languages like Python allow humans to communicate with machines.
-   - Python’s advantages in data science.
+#### 📦 2. Distributions & Environments
+- What is a **Distribution**? (E.g., Anaconda)
+- Why we use distributions to package Python and its libraries.
+- What is an **Environment**? (Conda/Virtual environments)
+- Benefits of isolating dependencies for different projects.
 
-3. **What is a Software Distribution?**  
-   - Introduction to **Anaconda Distribution**: A bundle that includes Python, libraries (like NumPy, Pandas), and tools like Jupyter Notebook.
-   - Why we use distributions to avoid dependency issues.
+#### ⚙️ 3. Ways to Run Python
+We explored multiple methods to run Python code:
+- Python CLI (`python`)
+- Python IDLE (Graphical Interpreter)
+- Jupyter Notebooks
+- `.py` Script files
+- Google Colab (online execution)
+- IDEs like VS Code
 
-4. **What is an Environment?**  
-   - Explanation of Python environments (virtual environments, conda environments).
-   - Importance of isolating dependencies for different projects.
-
-5. **Different Ways to Run Python Code:**
-   - ✅ Python CLI (Command Line Interpreter)
-   - ✅ IDLE (Python's built-in GUI)
-   - ✅ Jupyter Notebooks (via Anaconda or standalone install)
-   - ✅ VS Code or any IDE
-   - ✅ Online platforms like Google Colab
-   - ✅ Scripts via `.py` files
-   - ✅ Interactive Python shells like IPython
+➡️ Refer to the folder:  
+[`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables)
 
 ---
 
-## 📂 Folder Links
+### 🔤 4. Comments in Python
+- **Single-line comment**: Using `#`
+- **Multi-line comment**: Using triple quotes `''' '''` or `""" """` for documentation or blocks.
 
-> Below are folders linked to today’s session and upcoming ones:
+### 🗝️ 5. Keywords
+- Reserved words in Python like `if`, `else`, `for`, `while`, `def`, `class`, etc.
+- Keywords cannot be used as variable names or identifiers.
 
-- [`01_Python_Execution_Environments`](./01_Python_Execution_Environments)  
-  Contains demonstrations of running Python via CLI, Jupyter, IDLE, and more.
+### 🪪 6. Identifiers
+- The names we use for variables, functions, classes.
+- Rules for valid identifiers:
+  - Must begin with a letter (A–Z, a–z) or underscore (`_`)
+  - Cannot start with a number
+  - Can contain letters, digits, and underscores
+  - Case-sensitive
 
-*(Future folders will be added as the course progresses and linked here.)*
+### 📊 7. Data Structures in Python
+
+#### 🔹 Primitive Data Structures
+- `int`, `float`, `bool`, `str`
+
+#### 🔸 Abstract (Built-in) Data Structures
+- `list`
+- `tuple`
+- `set`
+- `dict`
+
+Each structure was explained with basic syntax and examples.
 
 ---
 
-## 🚀 Getting Started
+## 📂 Folder Structure
 
-To follow along with this repo on your local machine:
+| Folder | Description |
+|--------|-------------|
+| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Covers Python execution types, comments, keywords, identifiers, and data types |
 
-1. **Clone the repo**
+*(More folders will be added as the course progresses)*
+
+---
+
+## 🛠 Getting Started
+
+1. **Clone this repository**
    ```bash
    git clone https://github.com/Laxminarayen/Inceptez-batch-26-Classwork.git
    cd Inceptez-batch-26-Classwork
