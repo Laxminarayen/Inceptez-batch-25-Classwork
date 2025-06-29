@@ -5,7 +5,8 @@ This repository includes all the class notes, code examples, and practice files 
 
 ---
 
-## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts
+## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts  
+📆 Date: 26th June 2025
 
 In our **first session**, we introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
 
