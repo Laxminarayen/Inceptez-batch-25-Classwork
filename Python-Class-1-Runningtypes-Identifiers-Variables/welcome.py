@@ -1,0 +1,8 @@
+print("Hello! World!")
+print("My Name is Laxminarayen")
+print("I am here with Inceptez Batch - DS")
+print("I am here with Inceptez Batch - DS")
+print("I am here with Inceptez Batch - DS")
+print("I am here with Inceptez Batch - DS")
+print("I am here with Inceptez Batch - DS")
+print("I am here with Inceptez Batch - DS")
