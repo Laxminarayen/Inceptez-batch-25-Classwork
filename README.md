@@ -1,11 +1,12 @@
-# Inceptez Batch-26 Classwork
+# Inceptez Batch-25 Classwork
 
-Welcome to the **Inceptez Batch-26 Classwork Repository**!  
+Welcome to the **Inceptez Batch-25 Classwork Repository**!  
 This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.
 
 ---
 
-## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts
+## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts  
+📆 Date: 26th June 2025
 
 In our **first session**, we introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
 
@@ -82,5 +83,5 @@ Each structure was explained with basic syntax and examples.
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/Laxminarayen/Inceptez-batch-26-Classwork.git
-   cd Inceptez-batch-26-Classwork
+   git clone https://github.com/Laxminarayen/Inceptez-batch-25-Classwork.git
+   cd Inceptez-batch-25-Classwork
