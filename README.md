@@ -10,8 +10,6 @@ This repository includes all the class notes, code examples, and practice files 
 
 In our **first session**, we introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
 
----
-
 ### ✅ Topics Covered
 
 #### 🧠 1. What is Software?
@@ -25,7 +23,6 @@ In our **first session**, we introduced the basics of how Python works, the type
 - Benefits of isolating dependencies for different projects.
 
 #### ⚙️ 3. Ways to Run Python
-We explored multiple methods to run Python code:
 - Python CLI (`python`)
 - Python IDLE (Graphical Interpreter)
 - Jupyter Notebooks
@@ -36,36 +33,63 @@ We explored multiple methods to run Python code:
 ➡️ Refer to the folder:  
 [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables)
 
+#### 🔤 4. Comments in Python
+- **Single-line comment**: Using `#`
+- **Multi-line comment**: Using triple quotes `'''` or `"""`
+  
+#### 🗝️ 5. Keywords
+- Reserved words like `if`, `else`, `for`, `while`, etc.
+
+#### 🪪 6. Identifiers
+- Names for variables, functions, classes.  
+  Must start with a letter or `_`, can't start with a number.
+
+#### 📊 7. Data Structures in Python
+- **Primitive**: `int`, `float`, `bool`, `str`
+- **Abstract**: `list`, `tuple`, `set`, `dict`
+
 ---
 
-### 🔤 4. Comments in Python
-- **Single-line comment**: Using `#`
-- **Multi-line comment**: Using triple quotes `''' '''` or `""" """` for documentation or blocks.
+## 📅 Session 2: Memory, Typing, and Python Data Structures  
+📆 Date: 05th July 2025
 
-### 🗝️ 5. Keywords
-- Reserved words in Python like `if`, `else`, `for`, `while`, `def`, `class`, etc.
-- Keywords cannot be used as variable names or identifiers.
+In our **second session**, we focused on how Python manages memory internally and looked deeply into both primitive and abstract data types.
 
-### 🪪 6. Identifiers
-- The names we use for variables, functions, classes.
-- Rules for valid identifiers:
-  - Must begin with a letter (A–Z, a–z) or underscore (`_`)
-  - Cannot start with a number
-  - Can contain letters, digits, and underscores
-  - Case-sensitive
+### ✅ Topics Covered
 
-### 📊 7. Data Structures in Python
+#### 🧠 1. Programming Language Fundamentals
+- What is a Programming Language?
+- Low-Level vs High-Level
+- Static vs Dynamic Typing
+- Interpreters vs Compilers
+- How Python code is executed
+- What is Clang, CPython, and why a C compiler matters?
 
-#### 🔹 Primitive Data Structures
-- `int`, `float`, `bool`, `str`
+#### 🔧 2. Python Execution Internals
+- `.py` files → compiled to `.pyc` → executed by Python Virtual Machine
+- Jupyter Notebook cells and kernel architecture
 
-#### 🔸 Abstract (Built-in) Data Structures
-- `list`
-- `tuple`
-- `set`
-- `dict`
+#### 🔹 3. Primitive Types with Properties & Memory
+- `int`, `float`, `bool`, `str`, `complex`
+- Memory size using `sys.getsizeof()`
+- Methods, functions, and real-world stories to remember
 
-Each structure was explained with basic syntax and examples.
+#### 🔸 4. Abstract Data Structures
+- `list`, `tuple`, `set`, `dict`
+- Mutability, order, duplicate rules
+- Key methods and memory footprint
+- Easy analogies (basket, lunchbox, fridge, pantry)
+
+➡️ Refer to the folder:  
+[`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures)
+
+Includes:
+
+| Notebook File | Description |
+|---------------|-------------|
+| `Class2_Python_Internals_Execution_Memory_Typing.ipynb` | Python internals, execution model, memory handling |
+| `Class2_PrimitiveTypes_Memory_Functions_Stories.ipynb` | Primitive types and memory usage with practical examples |
+| `Class2_AbstractDataStructures_Properties_Stories.ipynb` | Abstract structures like `list`, `tuple`, `dict`, `set` with properties and use cases |
 
 ---
 
@@ -73,9 +97,8 @@ Each structure was explained with basic syntax and examples.
 
 | Folder | Description |
 |--------|-------------|
-| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Covers Python execution types, comments, keywords, identifiers, and data types |
-
-*(More folders will be added as the course progresses)*
+| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Basics of running Python, identifiers, comments, and keywords |
+| [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Python memory internals, primitive & abstract data structures |
 
 ---
 
