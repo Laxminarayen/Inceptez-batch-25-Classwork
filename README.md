@@ -98,15 +98,13 @@ We explored flexible ways to define and call functions, revisited recursion deep
 
 ### ✅ Topics:
 - **Function Arguments**:
-  - Positional, keyword, default, `*args`, `**kwargs`
+  - Positional, default, `*args`, `**kwargs`
 - **Function Overloading** in Python using flexible parameters
 - **Recursion**:
-  - Base case vs recursive case
-  - Stack frames and time complexity (why it’s `O(log n)` in Binary Search)
 - **Searching**:
   - Linear Search
   - Binary Search
-  - Differences, real-world examples, and code demonstrations
+  - Differences and code demonstrations
 
 📁 Folder:  
 [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos)
