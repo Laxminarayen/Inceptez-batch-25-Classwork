@@ -8,88 +8,86 @@ This repository includes all the class notes, code examples, and practice files 
 ## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts  
 📆 Date: 26th June 2025
 
-In our **first session**, we introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
+Introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
 
-### ✅ Topics Covered
+### ✅ Topics:
+- Software & Programming Language types
+- Distributions (Anaconda), Environments
+- Ways to run Python (`python`, `.py`, Jupyter, Colab, etc.)
+- Comments, Keywords, Identifiers
+- Primitive & Abstract Data Structures
 
-#### 🧠 1. What is Software?
-- Understanding **System Software** vs **Application Software**
-- What is a **Programming Language**, and where does Python fit?
-
-#### 📦 2. Distributions & Environments
-- What is a **Distribution**? (E.g., Anaconda)
-- Why we use distributions to package Python and its libraries.
-- What is an **Environment**? (Conda/Virtual environments)
-- Benefits of isolating dependencies for different projects.
-
-#### ⚙️ 3. Ways to Run Python
-- Python CLI (`python`)
-- Python IDLE (Graphical Interpreter)
-- Jupyter Notebooks
-- `.py` Script files
-- Google Colab (online execution)
-- IDEs like VS Code
-
-➡️ Refer to the folder:  
+📁 Folder:  
 [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables)
-
-#### 🔤 4. Comments in Python
-- **Single-line comment**: Using `#`
-- **Multi-line comment**: Using triple quotes `'''` or `"""`
-  
-#### 🗝️ 5. Keywords
-- Reserved words like `if`, `else`, `for`, `while`, etc.
-
-#### 🪪 6. Identifiers
-- Names for variables, functions, classes.  
-  Must start with a letter or `_`, can't start with a number.
-
-#### 📊 7. Data Structures in Python
-- **Primitive**: `int`, `float`, `bool`, `str`
-- **Abstract**: `list`, `tuple`, `set`, `dict`
 
 ---
 
 ## 📅 Session 2: Memory, Typing, and Python Data Structures  
-📆 Date: 05th July 2025
+📆 Date: 5th July 2025
 
-In our **second session**, we focused on how Python manages memory internally and looked deeply into both primitive and abstract data types.
+Explored how Python manages memory and the behavior of core data types.
 
-### ✅ Topics Covered
+### ✅ Topics:
+- Compilers vs Interpreters, Static vs Dynamic Typing
+- How `.py` gets executed internally
+- Memory size of primitives (`int`, `str`, etc.) using `sys.getsizeof()`
+- Abstract data structures (`list`, `tuple`, `set`, `dict`) with analogies
 
-#### 🧠 1. Programming Language Fundamentals
-- What is a Programming Language?
-- Low-Level vs High-Level
-- Static vs Dynamic Typing
-- Interpreters vs Compilers
-- How Python code is executed
-- What is Clang, CPython, and why a C compiler matters?
-
-#### 🔧 2. Python Execution Internals
-- `.py` files → compiled to `.pyc` → executed by Python Virtual Machine
-- Jupyter Notebook cells and kernel architecture
-
-#### 🔹 3. Primitive Types with Properties & Memory
-- `int`, `float`, `bool`, `str`, `complex`
-- Memory size using `sys.getsizeof()`
-- Methods, functions, and real-world stories to remember
-
-#### 🔸 4. Abstract Data Structures
-- `list`, `tuple`, `set`, `dict`
-- Mutability, order, duplicate rules
-- Key methods and memory footprint
-- Easy analogies (basket, lunchbox, fridge, pantry)
-
-➡️ Refer to the folder:  
+📁 Folder:  
 [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures)
 
-Includes:
+📓 Notebooks:
+| File | Description |
+|------|-------------|
+| `Class2_Python_Internals_Execution_Memory_Typing.ipynb` | Python internals & execution model |
+| `Class2_PrimitiveTypes_Memory_Functions_Stories.ipynb` | Primitives & memory handling |
+| `Class2_AbstractDataStructures_Properties_Stories.ipynb` | Abstract structures and analogies |
 
-| Notebook File | Description |
-|---------------|-------------|
-| `Class2_Python_Internals_Execution_Memory_Typing.ipynb` | Python internals, execution model, memory handling |
-| `Class2_PrimitiveTypes_Memory_Functions_Stories.ipynb` | Primitive types and memory usage with practical examples |
-| `Class2_AbstractDataStructures_Properties_Stories.ipynb` | Abstract structures like `list`, `tuple`, `dict`, `set` with properties and use cases |
+---
+
+## 📅 Session 3: Control Statements, Loops & Time Complexity  
+📆 Date: 6th July 2025
+
+Introduced control flow statements and loop structures, including real-world examples and performance analysis.
+
+### ✅ Topics:
+- `if`, `elif`, `else` with decision-making analogies
+- `for`, `while` loops using strings, lists, dicts
+- Iteration helpers: `range()`, `enumerate()`, `zip()`, `reversed()`, `sorted()`
+- Control tools: `break`, `continue`, `pass`
+- Time complexity of patterns (linear, nested, etc.)
+
+📁 Folder:  
+[`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity)
+
+📓 Notebook:  
+| File | Description |
+|------|-------------|
+| `Class3_ControlStructures_Explained_WithTimeComplexity.ipynb` | Looping constructs with time complexity and use cases |
+
+---
+
+## 📅 Session 4: Bitwise Operators, Augmented Arithmetic, Functions & Classes  
+📆 Date: 12th July 2025
+
+Covered Python’s low-level operators and built up to object-oriented concepts with clear examples and memory impact.
+
+### ✅ Topics:
+- **Bitwise Operators**: `&`, `|`, `^`, `~`, `<<`, `>>`
+- **Augmented Arithmetic**: `+=`, `-=`, `*=`, etc. and efficiency
+- **Functions**: Definition, parameters, return values, scope
+- **Function Overloading & Polymorphism**
+- **Classes**: `__init__`, methods, objects
+- Duck Typing and Pythonic behavior
+- Included bonus: Merge Sort & Recursion explanation
+
+📁 Folder:  
+[`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes)
+
+📓 Notebook:  
+| File | Description |
+|------|-------------|
+| `Class4_Bitwise_Augment_Functions_Classes_OrderedFinal.ipynb` | Bitwise, augmented ops, functions, classes, and recursion with merge sort |
 
 ---
 
@@ -97,8 +95,10 @@ Includes:
 
 | Folder | Description |
 |--------|-------------|
-| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Basics of running Python, identifiers, comments, and keywords |
-| [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Python memory internals, primitive & abstract data structures |
+| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Python setup, execution types, identifiers |
+| [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Memory behavior, data structures |
+| [`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Control statements and time complexity |
+| [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
 
 ---
 
