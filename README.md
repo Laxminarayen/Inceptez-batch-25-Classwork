@@ -100,7 +100,7 @@ We explored flexible ways to define and call functions, revisited recursion deep
 - **Function Arguments**:
   - Positional, default, `*args`, `**kwargs`
 - **Function Overloading** in Python using flexible parameters
-- **Recursion**:
+- **Recursion**
 - **Searching**:
   - Linear Search
   - Binary Search
