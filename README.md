@@ -91,6 +91,31 @@ Covered Python’s low-level operators and built up to object-oriented concepts 
 
 ---
 
+## 📅 Session 5: Arguments, Function Overloading, Recursion & Searching  
+📆 Date: 13th July 2025
+
+We explored flexible ways to define and call functions, revisited recursion deeply with visual logic, and laid the foundation for searching techniques in Python.
+
+### ✅ Topics:
+- **Function Arguments**:
+  - Positional, keyword, default, `*args`, `**kwargs`
+- **Function Overloading** in Python using flexible parameters
+- **Recursion**:
+  - Base case vs recursive case
+  - Stack frames and time complexity (why it’s `O(log n)` in Binary Search)
+- **Searching**:
+  - Linear Search
+  - Binary Search
+  - Differences, real-world examples, and code demonstrations
+
+📁 Folder:  
+[`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos)
+
+📓 Notebook:  
+| File | Description |
+|------|-------------|
+| `Class_Functions_Recursion_Searching.ipynb` | Covers arguments, simulated overloading, recursion logic, and searching with examples |
+
 ## 📂 Folder Structure
 
 | Folder | Description |
@@ -99,6 +124,7 @@ Covered Python’s low-level operators and built up to object-oriented concepts 
 | [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Memory behavior, data structures |
 | [`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Control statements and time complexity |
 | [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
+| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms |
 
 ---
 
