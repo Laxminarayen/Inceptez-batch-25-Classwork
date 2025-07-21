@@ -119,8 +119,6 @@ We explored flexible ways to define and call functions, revisited recursion deep
 ## 📅 Session 6: List Comprehensions, Dict Comprehensions & manipulations using dict comprehensions
 📆 Date: 18th July 2025
 
-We explored flexible ways to define and call functions, revisited recursion deeply with visual logic, and laid the foundation for searching techniques in Python.
-
 ### ✅ Topics:
 We explored:
 - List Comprehension 📝
@@ -132,6 +130,17 @@ We explored:
 📁 Folder:  
 [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems)
 
+
+## 📅 Session 7: Introduction to Classes & Types of inheritance
+📆 Date: 19th July 2025
+
+### ✅ Topics:
+This classes was designed to help you understand **classes**, **objects**, and **inheritance** in Python 
+
+📁 Folder:  
+[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
+
+
 ## 📂 Folder Structure
 
 | Folder | Description |
@@ -142,7 +151,7 @@ We explored:
 | [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
 | [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
 | [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
-
+| [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
 ---
 
 ## 🛠 Getting Started
