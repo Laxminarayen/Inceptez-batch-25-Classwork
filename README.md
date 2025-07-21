@@ -140,8 +140,9 @@ We explored:
 | [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Memory behavior, data structures |
 | [`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Control statements and time complexity |
 | [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
-| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | | [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems)
- | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict` ,  Why dictionaries are optimized for speed |
+| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
+| [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems)
+ | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
 
 ---
 
