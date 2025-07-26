@@ -116,6 +116,31 @@ We explored flexible ways to define and call functions, revisited recursion deep
 |------|-------------|
 | `Class_Functions_Recursion_Searching.ipynb` | Covers arguments, simulated overloading, recursion logic, and searching with examples |
 
+## 📅 Session 6: List Comprehensions, Dict Comprehensions & manipulations using dict comprehensions
+📆 Date: 18th July 2025
+
+### ✅ Topics:
+We explored:
+- List Comprehension 📝
+- Dictionary Comprehension 🔑
+- Time Complexity of `list` vs `dict` ⚙️
+- Why dictionaries are optimized for speed 🧠
+- Real-world use cases for comprehensions 🚀
+
+📁 Folder:  
+[`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems)
+
+
+## 📅 Session 7: Introduction to Classes & Types of inheritance
+📆 Date: 19th July 2025
+
+### ✅ Topics:
+This classes was designed to help you understand **classes**, **objects**, and **inheritance** in Python 
+
+📁 Folder:  
+[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
+
+
 ## 📂 Folder Structure
 
 | Folder | Description |
@@ -124,8 +149,9 @@ We explored flexible ways to define and call functions, revisited recursion deep
 | [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Memory behavior, data structures |
 | [`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Control statements and time complexity |
 | [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
-| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms |
-
+| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
+| [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
+| [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
 ---
 
 ## 🛠 Getting Started
