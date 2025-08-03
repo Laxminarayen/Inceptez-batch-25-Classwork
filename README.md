@@ -141,6 +141,28 @@ This classes was designed to help you understand **classes**, **objects**, and *
 [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
 
 
+## 📅 Session 9: NumPy & Pandas - Foundation for Data Science  
+📆 Date: 26th July 2025
+
+Introduced the core libraries that power Python-based data science: **NumPy** for numerical array operations and **Pandas** for structured data manipulation. Emphasis was placed on understanding the difference between native Python lists and NumPy arrays, and how Pandas helps in working with tabular data efficiently.
+
+### ✅ Topics Covered:
+- 📊 **NumPy**:
+  - Difference between Lists vs Arrays
+  - Creating arrays (`np.array`, `np.arange`, `np.zeros`, etc.)
+  - Reshaping, indexing, slicing
+  - Broadcasting rules and element-wise operations
+  - Speed & memory benefits over Python lists
+
+- 📈 **Pandas**:
+  - Creating and working with `Series` and `DataFrame`
+  - Reading data from CSV files
+  - Viewing and summarizing data (`head()`, `tail()`, `info()`, `describe()`)
+  - Filtering, indexing, and column/row access
+
+📁 **Folder**:  
+[`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro)
+
 ## 📂 Folder Structure
 
 | Folder | Description |
@@ -152,6 +174,8 @@ This classes was designed to help you understand **classes**, **objects**, and *
 | [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
 | [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
 | [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
+| [`Beginner_Numpy_Pandas_Notebook.ipynb`](./Python-Class9-Numpy-Pandas-Intro)  | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
+
 ---
 
 ## 🛠 Getting Started
