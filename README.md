@@ -160,8 +160,7 @@ This session deepened students' object‑oriented programming skills with advanc
   - f‑strings and formatted output  
     
 📁 **Folder**:  
-[`Python-Class8-ClassesAdvanced-StringManipulations`](./Python-Class8-ClassesAdvanced-StringManipulations)
-
+[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) 
 
 ## 📅 Session 9: NumPy & Pandas - Foundation for Data Science  
 📆 Date: 26th July 2025
@@ -183,7 +182,7 @@ Introduced the core libraries that power Python-based data science: **NumPy** fo
   - Filtering, indexing, and column/row access
 
 📁 **Folder**:  
-[`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro)
+[`Beginner_Numpy_Pandas_Notebook.ipynb`](./Python-Class9-Numpy-Pandas-Intro)
 
 ## 📂 Folder Structure
 
@@ -196,8 +195,8 @@ Introduced the core libraries that power Python-based data science: **NumPy** fo
 | [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
 | [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
 | [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
-| `Detailed_Python_Classes_Variables_With_LEGB.ipynb`                                   | Explores class design, variable scoping (LEGB), and string handling in depth |
-| [`Beginner_Numpy_Pandas_Notebook.ipynb`](./Python-Class9-Numpy-Pandas-Intro)  | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
+| [`Python-Class8-ClassesAdvanced-StringManipulations`](./Python-Class8-ClassesAdvanced-StringManipulations)                                 | Explores class design, variable scoping (LEGB), and string handling in depth |
+|  [`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro) | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
 
 ---
 
