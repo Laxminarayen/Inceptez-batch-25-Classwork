@@ -141,7 +141,7 @@ This classes was designed to help you understand **classes**, **objects**, and *
 [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
 
 ## 📅 Session 8: Advanced Classes & String Manipulation  
-📆 Date: 20th July 2025
+📆 Date: 26th July 2025
 
 This session deepened students' object‑oriented programming skills with advanced class design, magic (dunder) methods, and powerful string operations—key tools for data cleaning and text handling.
 
@@ -163,7 +163,7 @@ This session deepened students' object‑oriented programming skills with advanc
 [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) 
 
 ## 📅 Session 9: NumPy & Pandas - Foundation for Data Science  
-📆 Date: 26th July 2025
+📆 Date: 27th July 2025
 
 Introduced the core libraries that power Python-based data science: **NumPy** for numerical array operations and **Pandas** for structured data manipulation. Emphasis was placed on understanding the difference between native Python lists and NumPy arrays, and how Pandas helps in working with tabular data efficiently.
 
