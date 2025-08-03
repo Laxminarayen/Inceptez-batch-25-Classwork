@@ -140,6 +140,49 @@ This classes was designed to help you understand **classes**, **objects**, and *
 📁 Folder:  
 [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
 
+## 📅 Session 8: Advanced Classes & String Manipulation  
+📆 Date: 26th July 2025
+
+This session deepened students' object‑oriented programming skills with advanced class design, magic (dunder) methods, and powerful string operations—key tools for data cleaning and text handling.
+
+### ✅ Topics Covered:
+
+- 🧱 **Advanced Classes & OOP Enhancements**  
+  - Class vs Instance variables  
+  - `@classmethod` and `@staticmethod` usage  
+  - Encapsulation and abstraction  
+  - Magic (dunder) methods: `__init__`, `__str__`, `__repr__`, `__eq__`, `__len__` etc.  
+  - Operator overloading through magic methods  
+
+- 🔤 **String Processing Techniques**  
+  - Slicing, indexing, and immutable behavior  
+  - Common methods: `split()`, `join()`, `replace()`, `strip()`, `find()`, `count()`  
+  - f‑strings and formatted output  
+    
+📁 **Folder**:  
+[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) 
+
+## 📅 Session 9: NumPy & Pandas - Foundation for Data Science  
+📆 Date: 27th July 2025
+
+Introduced the core libraries that power Python-based data science: **NumPy** for numerical array operations and **Pandas** for structured data manipulation. Emphasis was placed on understanding the difference between native Python lists and NumPy arrays, and how Pandas helps in working with tabular data efficiently.
+
+### ✅ Topics Covered:
+- 📊 **NumPy**:
+  - Difference between Lists vs Arrays
+  - Creating arrays (`np.array`, `np.arange`, `np.zeros`, etc.)
+  - Reshaping, indexing, slicing
+  - Broadcasting rules and element-wise operations
+  - Speed & memory benefits over Python lists
+
+- 📈 **Pandas**:
+  - Creating and working with `Series` and `DataFrame`
+  - Reading data from CSV files
+  - Viewing and summarizing data (`head()`, `tail()`, `info()`, `describe()`)
+  - Filtering, indexing, and column/row access
+
+📁 **Folder**:  
+[`Beginner_Numpy_Pandas_Notebook.ipynb`](./Python-Class9-Numpy-Pandas-Intro)
 
 ## 📂 Folder Structure
 
@@ -152,6 +195,9 @@ This classes was designed to help you understand **classes**, **objects**, and *
 | [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
 | [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
 | [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
+| [`Python-Class8-ClassesAdvanced-StringManipulations`](./Python-Class8-ClassesAdvanced-StringManipulations)                                 | Explores class design, variable scoping (LEGB), and string handling in depth |
+|  [`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro) | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
+
 ---
 
 ## 🛠 Getting Started
