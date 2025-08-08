@@ -201,6 +201,22 @@ By the end of this class, you should be able to:
 📁 **Folder**:  
 [`Class10_Pandas_Data_Types_Documented.ipynb`](./Python-Class10-Pandas-Basics)
 
+## 📅 Session 11: Pandas Intermediate 
+📆 Date: 03rd August 2025
+
+This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**.  
+
+## 🎯 Learning Objectives
+By the end of this lesson, you will be able to:
+- Filter data using complex conditions
+- Transform data with `map()`, `apply()`, and `lambda` functions
+- Summarize datasets using `groupby()` and multiple aggregations
+- Combine datasets with merges, joins, and concatenations
+- Build pivot tables and crosstabs for multi-dimensional analysis
+
+📁 **Folder**:  
+[`Pandas_Level2_Intermediate_doc.ipynb`](./Python-Class11-Pandas-Intermediate)
+
 ## 📂 Folder Structure
 
 | Folder | Description |
@@ -215,6 +231,7 @@ By the end of this class, you should be able to:
 | [`Python-Class8-ClassesAdvanced-StringManipulations`](./Python-Class8-ClassesAdvanced-StringManipulations)                                 | Explores class design, variable scoping (LEGB), and string handling in depth |
 |  [`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro) | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
 |  [`Python-Class10-Pandas-Basics`](./Python-Class10-Pandas-Basics) | This class dives into **how pandas stores and represents data** internally, with a focus on different data types and how to work with them effectively. |
+|  [`Python-Class11-Pandas-Intermediate`](./Python-Class11-Pandas-Intermediate) | This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**. |
 
 ---
 
