@@ -228,8 +228,6 @@ This class builds on your basic Pandas knowledge to cover **intermediate data tr
   - Upload your completed notebook to this link:
   - 👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
 
-
-This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**.  
 ## 🎯 Learning Objectives
 By the end of this lesson, you will be able to:
 - Filter data using complex conditions
