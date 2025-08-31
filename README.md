@@ -211,23 +211,23 @@ This class builds on your basic Pandas knowledge to cover **intermediate data tr
 
 ### Part 1 – Online Quiz (MCQs)
 👉 Join Quiz Here: https://wayground.com/join?gc=07791682
-No login required – click the link.
-1 minute per question ⏱
-Covers Python, Pandas, and Statistics (based on our class material).
-Please attempt all questions in one go. PLEASE DO NOT refresh in the middle!! 
-This Quiz link will be active till: Aug 31, 2025, 11:59 AM IST
+  - No login required – click the link.
+  - 1 minute per question ⏱
+  - Covers Python, Pandas, and Statistics (based on our class material).
+  - Please attempt all questions in one go. PLEASE DO NOT refresh in the middle!! 
+  -  This Quiz link will be active till: Aug 31, 2025, 11:59 AM IST
 
 ### Part 2 – Coding Assignment (Application-based)
 👉 Download Notebook – 6 Questions
 📂 Instructions:
-Questions link: https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/blob/main/Test-1/InceptezExam1.ipynb
-Open the .ipynb file in Google Colab (File → Upload Notebook) or Jupyter.
-Enter your Name at the top.
-Solve all 6 coding questions – each has clear input, and expected output.
-Save as YourName_Assessment.ipynb.
-Upload your completed notebook to this link:
-👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
-📆 Date: 31st August 2025
+  - Questions link: https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/blob/main/Test-1/InceptezExam1.ipynb
+  - Open the .ipynb file in Google Colab (File → Upload Notebook) or Jupyter.
+  - Enter your Name at the top.
+  - Solve all 6 coding questions – each has clear input, and expected output.
+  - Save as YourName_Assessment.ipynb.
+  - Upload your completed notebook to this link:
+  - 👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
+
 
 This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**.  
 ## 🎯 Learning Objectives
