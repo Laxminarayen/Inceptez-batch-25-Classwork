@@ -262,6 +262,43 @@ This session continued our in-depth exploration of **Descriptive Statistics** us
 📁 **Folder**:  
 [`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  
 
+## 📅 Session 14: Inferential Statistics (Part 1) with Pandas  
+📆 Date: 16th August 2025  
+
+This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  
+
+### ✅ Topics Covered:  
+- 🔑 **Introduction to Inferential Statistics**  
+  - Difference between descriptive and inferential approaches  
+  - Population vs Sample concepts  
+  - Why we need inference in data science  
+
+- 🎲 **Probability Foundations**  
+  - Random variables and distributions  
+  - Sampling distributions  
+  - Law of Large Numbers & Central Limit Theorem (CLT)  
+
+- 📏 **Estimation Techniques**  
+  - Point Estimation  
+  - Interval Estimation (Confidence Intervals)  
+
+- 📐 **Hypothesis Testing Basics**  
+  - Null vs Alternative Hypothesis  
+  - Significance Level (α) and p-values  
+
+- 🛠 **Hands-on in Pandas**  
+  - Simulating random samples from data  
+  - Estimating means & proportions  
+  - Building simple confidence intervals with Pandas & NumPy  
+
+📁 **Folder**:  
+[`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  
+
+📓 **Notebook**:  
+| File | Description |  
+|------|-------------|  
+| `Inferential1-classwork.ipynb` | Introduction to inferential statistics with probability, estimation, and hypothesis testing foundations |  
+
 
 ## 📅 EXAM DETAILS
 
@@ -308,6 +345,7 @@ This repository includes all the class notes, code examples, and practice files 
 |  [`Python-Class11-Pandas-Intermediate`](./Python-Class11-Pandas-Intermediate) | This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**. |
 | [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | Descriptive statistics with Pandas |  
 |[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | Descriptive statistics 2 with Pandas |
+| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | Inferential statistics 1 with pandas | 
 ---
 
 ## 🛠 Getting Started
