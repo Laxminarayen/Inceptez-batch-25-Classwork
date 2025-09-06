@@ -206,19 +206,10 @@ By the end of this class, you should be able to:
 
 This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**.  
 
-## 📅 Session 12: Pandas Intermediate 
+## 📅 Session 12: Descriptive Statistics (Part 1) with Pandas  
 📆 Date: 09th August 2025
-# Inceptez Batch-25 Classwork  
 
-Welcome to the **Inceptez Batch-25 Classwork Repository**!  
-This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.  
-
----
-
-## 📅 Session 12: Descriptive Statistics with Pandas  
-📆 Date: 4th August 2025  
-
-This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarizing and understanding datasets through statistical measures rather than just raw data.  
+This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.  
 
 ### ✅ Topics Covered:  
 - 📊 **Measures of Central Tendency**  
@@ -228,7 +219,6 @@ This session introduced **Descriptive Statistics** using Python and Pandas. We f
   - Variance, Standard Deviation, Range  
   - Why dispersion matters in real-world datasets  
 - 📐 **Shape of Distribution**  
-  - Skewness and Kurtosis explained  
 - 🔍 **Exploratory Data Analysis (EDA) with Pandas**  
   - `describe()` method  
   - Custom summary statistics (`.mean()`, `.median()`, `.mode()`, `.var()`, `.std()`)  
@@ -243,6 +233,34 @@ This session introduced **Descriptive Statistics** using Python and Pandas. We f
 | File | Description |  
 |------|-------------|  
 | `DescriptiveStatistics-Classwork.ipynb` | Covers descriptive statistics using Pandas with examples and explanations |  
+
+## 📅 Session 13: Descriptive Statistics (Part 2) with Pandas  
+📆 Date: 10th August 2025  
+
+This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).  
+
+### ✅ Topics Covered:  
+- 🔁 **Review of Descriptive Statistics Basics**  
+  - Central tendency (mean, median, mode)  
+  - Dispersion (variance, standard deviation, range)  
+
+- 📊 **Advanced Summary Measures**  
+  - Percentiles and Quartiles  
+  - Interquartile Range (IQR)  
+  - Outlier detection using IQR  
+
+- 🔗 **Relationships Between Variables**  
+  - Covariance  
+  - Correlation (`.corr()`)  
+  - Heatmaps and pairwise correlation analysis  
+
+- 🛠 **Hands-on EDA with Pandas**  
+  - Applying advanced statistical methods to real datasets  
+  - Identifying patterns and relationships in tabular data  
+  - Preparing insights for visualisation and hypothesis testing  
+
+📁 **Folder**:  
+[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  
 
 
 ## 📅 EXAM DETAILS
@@ -266,16 +284,12 @@ This session introduced **Descriptive Statistics** using Python and Pandas. We f
   - Upload your completed notebook to this link:
   - 👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
 
-## 🎯 Learning Objectives
-By the end of this lesson, you will be able to:
-- Filter data using complex conditions
-- Transform data with `map()`, `apply()`, and `lambda` functions
-- Summarize datasets using `groupby()` and multiple aggregations
-- Combine datasets with merges, joins, and concatenations
-- Build pivot tables and crosstabs for multi-dimensional analysis
+# Inceptez Batch-25 Classwork  
 
-📁 **Folder**:  
-[`Pandas_Level2_Intermediate_doc.ipynb`](./Python-Class11-Pandas-Intermediate)
+Welcome to the **Inceptez Batch-25 Classwork Repository**!  
+This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.  
+
+---
 
 ## 📂 Folder Structure
 
@@ -293,7 +307,7 @@ By the end of this lesson, you will be able to:
 |  [`Python-Class10-Pandas-Basics`](./Python-Class10-Pandas-Basics) | This class dives into **how pandas stores and represents data** internally, with a focus on different data types and how to work with them effectively. |
 |  [`Python-Class11-Pandas-Intermediate`](./Python-Class11-Pandas-Intermediate) | This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**. |
 | [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | Descriptive statistics with Pandas |  
-
+|[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | Descriptive statistics 2 with Pandas |
 ---
 
 ## 🛠 Getting Started
