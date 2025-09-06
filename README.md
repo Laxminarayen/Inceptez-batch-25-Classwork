@@ -299,6 +299,72 @@ This session marked the transition from **Descriptive** to **Inferential Statist
 |------|-------------|  
 | `Inferential1-classwork.ipynb` | Introduction to inferential statistics with probability, estimation, and hypothesis testing foundations |  
 
+## 📅 Session 15: Hypothesis Testing (Inferential Statistics – Part 2) with Pandas  
+📆 Date: 17th August 2025  
+
+This session built upon our introduction to inferential statistics by focusing on **hypothesis testing**. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.  
+
+### ✅ Topics Covered:  
+- 📌 **Recap of Inferential Statistics**  
+  - Population vs Sample  
+  - Role of estimation and confidence intervals  
+
+- 🧪 **Introduction to Hypothesis Testing**  
+  - Null Hypothesis (H₀) and Alternative Hypothesis (H₁)  
+  - p-values and significance levels (α)  
+
+- 📊 **One-Sample Tests**  
+  - Z-Test for means  
+  - Concept of critical region and decision rules  
+  - Practical business/data science scenarios  
+
+- 🛠 **Hands-on Practice with Pandas**  
+  - Conducting one-sample Z-tests  
+  - Interpreting test statistics and results  
+  - Applying results to real-world datasets  
+
+📁 **Folder**:  
+[`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas)  
+
+📓 **Notebook**:  
+| File | Description |  
+|------|-------------|  
+| `OneSampleZ-Classwork.ipynb` | Covers the foundations of hypothesis testing and demonstrates one-sample Z-tests using Pandas |  
+
+## 📅 Session 16 & 17: Hypothesis Testing (Inferential Statistics – Part 3 & 4) with Pandas  
+📆 Date: 23rd & 24th August 2025  
+
+These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making.  
+
+### ✅ Topics Covered:  
+- 🔄 **Review of Hypothesis Testing Framework**  
+  - Null (H₀) vs Alternative (H₁)  
+  - Errors in testing (Type I & II)  
+  - Decision rules and p-value interpretation  
+
+- 📊 **Different Hypothesis Tests**  
+  - **One-Sample Tests**: Z-test, T-test    
+  - **Chi-Square Test** for independence of categorical variables
+  - **F-Test** Test for variance
+
+- 📐 **When to Use Which Test?**  
+  - Comparing proportions vs means  
+  - Parametric vs non-parametric scenarios  
+  - Practical business/data applications  
+
+- 🛠 **Hands-on in Pandas & Python**  
+  - Performing hypothesis tests step by step  
+  - Using datasets to apply Z, T, Chi-Square, and F test
+  - Interpreting outputs to form business insights  
+
+📁 **Folder**:  
+[`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)  
+
+📓 **Notebook**:  
+| File | Description |  
+|------|-------------|  
+| `DifferentHypothesisTests.ipynb` | Demonstrates multiple hypothesis tests (Z, T, Chi-Square, ANOVA) with examples and real-world use cases |  
+
 
 ## 📅 EXAM DETAILS
 
@@ -346,6 +412,8 @@ This repository includes all the class notes, code examples, and practice files 
 | [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.   |  
 |[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).   |
 | [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  | 
+| [`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas)   | This session built upon our introduction to inferential statistics by focusing on **hypothesis testing**. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.  |
+| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)    | These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
 ---
 
 ## 🛠 Getting Started
