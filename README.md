@@ -343,9 +343,9 @@ This repository includes all the class notes, code examples, and practice files 
 |  [`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro) | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
 |  [`Python-Class10-Pandas-Basics`](./Python-Class10-Pandas-Basics) | This class dives into **how pandas stores and represents data** internally, with a focus on different data types and how to work with them effectively. |
 |  [`Python-Class11-Pandas-Intermediate`](./Python-Class11-Pandas-Intermediate) | This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**. |
-| [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | Descriptive statistics with Pandas |  
-|[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | Descriptive statistics 2 with Pandas |
-| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | Inferential statistics 1 with pandas | 
+| [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.   |  
+|[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).   |
+| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  | 
 ---
 
 ## 🛠 Getting Started
