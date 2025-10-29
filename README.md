@@ -363,8 +363,41 @@ These sessions extended our study of **hypothesis testing** by exploring multipl
 📓 **Notebook**:  
 | File | Description |  
 |------|-------------|  
-| `DifferentHypothesisTests.ipynb` | Demonstrates multiple hypothesis tests (Z, T, Chi-Square, ANOVA) with examples and real-world use cases |  
+|| `DifferentHypothesisTests.ipynb` | Demonstrates multiple hypothesis tests (Z, T, Chi-Square, ANOVA) with examples and real-world use cases |  
 
+## 📅 Session 17: Data Preprocessing for Machine Learning  
+📆 Date: 30th August 2025  
+
+This session focused on preparing raw data for machine learning algorithms. Data preprocessing is a critical step that directly impacts model performance and accuracy.  
+
+### ✅ Topics Covered:  
+- 🧼 **Handling Missing Data**  
+  - Identifying missing values with `isnull()` and `isna()`  
+  - Strategies: dropping, imputation (mean, median, mode, forward/backward fill)  
+  
+- 📊 **Data Scaling & Normalization**  
+  - StandardScaler (z-score normalization)  
+  - MinMaxScaler (range scaling)  
+  - When to use which scaler  
+  
+- 🏷️ **Encoding Categorical Variables**  
+  - Label Encoding for ordinal data  
+  - One-Hot Encoding for nominal data  
+  - `pd.get_dummies()` and sklearn's `OneHotEncoder`  
+  
+- 🔍 **Feature Engineering Basics**  
+  - Creating new features from existing ones  
+  - Handling datetime features  
+  - Binning and discretization  
+  
+- ✂️ **Splitting Data**  
+  - Train-test split  
+  - Importance of random state for reproducibility  
+
+📁 **Folder**:  
+[`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing)  
+
+---
 
 ## 📅 EXAM DETAILS
 
@@ -387,7 +420,63 @@ These sessions extended our study of **hypothesis testing** by exploring multipl
   - Upload your completed notebook to this link:
   - 👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
 
-# Inceptez Batch-25 Classwork  
+---
+
+# 🤖 Machine Learning Sessions
+
+## 📅 ML Session 1: Introduction to Machine Learning  
+📆 Date: October 25 2025  
+
+This session introduced the fundamentals of Machine Learning, providing a comprehensive overview of what ML is, its types, and real-world applications.  
+
+### ✅ Topics Covered:  
+- 🧠 **What is Machine Learning?**  
+  - Difference between AI, ML, and Deep Learning  
+  - How machines learn from data  
+  
+- 📋 **Types of Machine Learning**  
+  - Supervised Learning (Classification & Regression)  
+  - Unsupervised Learning (Clustering & Dimensionality Reduction)  
+  - Reinforcement Learning basics  
+  
+- 🎯 **ML Workflow**  
+  - Problem definition  
+  - Data collection and preprocessing  
+  - Model selection and training  
+  - Evaluation and deployment  
+  
+- 📊 **Real-world Applications**  
+  - Recommendation systems  
+  - Image recognition  
+  - Fraud detection  
+  - Predictive analytics  
+
+📁 **Folder**:  
+[`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning)  
+
+---
+
+## 📅 ML Session 2: Linear Regression  
+📆 Date: October 26 2025  
+
+This session covered Linear Regression, one of the fundamental algorithms in machine learning for predicting continuous values.  
+
+### ✅ Topics Covered:  
+- 📈 **Linear Regression Fundamentals**  
+  - What is regression?  
+  - Simple vs Multiple Linear Regression  
+  - Assumptions of linear regression  
+  
+- 📊 **Mathematical Foundation**  
+  - Equation of a line: y = mx + b  
+  
+📁 **Folder**:  
+[`02. Linear Regression`](./02.%20Linear%20Regression)  
+
+
+---
+
+# Inceptez Batch-25 Classwork
 
 Welcome to the **Inceptez Batch-25 Classwork Repository**!  
 This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.  
@@ -413,7 +502,10 @@ This repository includes all the class notes, code examples, and practice files 
 |[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).   |
 | [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  | 
 | [`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas)   | This session built upon our introduction to inferential statistics by focusing on **hypothesis testing**. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.  |
-| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)    | These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
+|| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)    | These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
+|| [`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing) | Data preprocessing techniques including handling missing values, scaling, encoding categorical variables, feature engineering, and train-test splitting |
+|| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | Introduction to Machine Learning concepts, types (supervised/unsupervised), ML workflow, and real-world applications |
+|| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression fundamentals, mathematical foundations, implementation with sklearn, and model evaluation metrics |
 ---
 
 ## 🛠 Getting Started
