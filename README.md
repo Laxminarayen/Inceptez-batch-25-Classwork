@@ -1,49 +1,60 @@
 # Inceptez Batch-25 Classwork
 
-Welcome to the **Inceptez Batch-25 Classwork Repository**!  
-This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.
+Welcome to the **Inceptez Batch-25 Classwork Repository**. This README is a concise top-level guide: quick start, folder overview, and pointers to detailed session notebooks inside their respective folders.
 
 ---
 
-## 📅 Session 1: Python Setup, Syntax Basics & Data Concepts  
-📆 Date: 26th June 2025
+## Quick start
 
-Introduced the basics of how Python works, the types of environments you can use, and foundational Python syntax.
 
-### ✅ Topics:
-- Software & Programming Language types
-- Distributions (Anaconda), Environments
-- Ways to run Python (`python`, `.py`, Jupyter, Colab, etc.)
-- Comments, Keywords, Identifiers
-- Primitive & Abstract Data Structures
+```bash
+git clone https://github.com/Laxminarayen/Inceptez-batch-25-Classwork.git
+cd Inceptez-batch-25-Classwork
+```
 
-📁 Folder:  
-[`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables)
+2. (Optional) Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+3. (Optional) Install dependencies for demos/notebooks that include a requirements file:
+
+```bash
+pip install -r Demo-Student-Datacollection/requirements.txt
+```
+
+4. Launch Jupyter Lab or Notebook and open the notebooks you want to explore:
+
+```bash
+jupyter lab
+```
+
+---
+## How to use this repository
+
+1. Open the folder for the session you want to study.
+2. Launch Jupyter and open the notebook (`.ipynb`) for that session.
+3. If a notebook lists required packages, install them into your active environment.
+4. Run notebook cells sequentially; notebooks include explanations and runnable examples.
 
 ---
 
-## 📅 Session 2: Memory, Typing, and Python Data Structures  
-📆 Date: 5th July 2025
+## Contributing
 
-Explored how Python manages memory and the behavior of core data types.
-
-### ✅ Topics:
-- Compilers vs Interpreters, Static vs Dynamic Typing
-- How `.py` gets executed internally
-- Memory size of primitives (`int`, `str`, etc.) using `sys.getsizeof()`
-- Abstract data structures (`list`, `tuple`, `set`, `dict`) with analogies
-
-📁 Folder:  
-[`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures)
-
-📓 Notebooks:
-| File | Description |
-|------|-------------|
-| `Class2_Python_Internals_Execution_Memory_Typing.ipynb` | Python internals & execution model |
-| `Class2_PrimitiveTypes_Memory_Functions_Stories.ipynb` | Primitives & memory handling |
-| `Class2_AbstractDataStructures_Properties_Stories.ipynb` | Abstract structures and analogies |
+If you'd like to suggest improvements (typos, clearer examples), open an issue or submit a small PR. Prefer focused changes per PR.
 
 ---
+
+## License & Contact
+
+- No license file is included by default. If you want to publish or reuse broadly, consider adding a license (e.g., MIT).
+- For questions, contact the repository owner (GitHub user `Laxminarayen`).
+
+---
+
+(End of README)
 
 ## 📅 Session 3: Control Statements, Loops & Time Complexity  
 📆 Date: 6th July 2025
@@ -100,50 +111,15 @@ We explored flexible ways to define and call functions, revisited recursion deep
 - **Function Arguments**:
   - Positional, default, `*args`, `**kwargs`
 - **Function Overloading** in Python using flexible parameters
-- **Recursion**:
-  - Base Case
-  - Recursive Case
-- **Searching**:
-  - Linear Search
-  - Binary Search
-  - Differences and code demonstrations
+## Recent / final folders
 
-📁 Folder:  
-[`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos)
+- `Python-Class15-Hypothesis1-Inferential2-Pandas` — This session built upon our introduction to inferential statistics by focusing on hypothesis testing. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.
+- `Python-Class16-17-Hypothesis2-Tests-Pandas`
+- `Python-Class17-DataPreprocessing`
+- `01. Intro-Machine Learning`
+- `02. Linear Regression`
 
-📓 Notebook:  
-| File | Description |
-|------|-------------|
-| `Class_Functions_Recursion_Searching.ipynb` | Covers arguments, simulated overloading, recursion logic, and searching with examples |
-
-## 📅 Session 6: List Comprehensions, Dict Comprehensions & manipulations using dict comprehensions
-📆 Date: 18th July 2025
-
-### ✅ Topics:
-We explored:
-- List Comprehension 📝
-- Dictionary Comprehension 🔑
-- Time Complexity of `list` vs `dict` ⚙️
-- Why dictionaries are optimized for speed 🧠
-- Real-world use cases for comprehensions 🚀
-
-📁 Folder:  
-[`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems)
-
-
-## 📅 Session 7: Introduction to Classes & Types of inheritance
-📆 Date: 19th July 2025
-
-### ✅ Topics:
-This classes was designed to help you understand **classes**, **objects**, and **inheritance** in Python 
-
-📁 Folder:  
-[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction)
-
-## 📅 Session 8: Advanced Classes & String Manipulation  
-📆 Date: 26th July 2025
-
-This session deepened students' object‑oriented programming skills with advanced class design, magic (dunder) methods, and powerful string operations—key tools for data cleaning and text handling.
+---
 
 ### ✅ Topics Covered:
 
@@ -279,55 +255,7 @@ This session marked the transition from **Descriptive** to **Inferential Statist
   - Law of Large Numbers & Central Limit Theorem (CLT)  
 
 - 📏 **Estimation Techniques**  
-  - Point Estimation  
-  - Interval Estimation (Confidence Intervals)  
 
-- 📐 **Hypothesis Testing Basics**  
-  - Null vs Alternative Hypothesis  
-  - Significance Level (α) and p-values  
-
-- 🛠 **Hands-on in Pandas**  
-  - Simulating random samples from data  
-  - Estimating means & proportions  
-  - Building simple confidence intervals with Pandas & NumPy  
-
-📁 **Folder**:  
-[`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  
-
-📓 **Notebook**:  
-| File | Description |  
-|------|-------------|  
-| `Inferential1-classwork.ipynb` | Introduction to inferential statistics with probability, estimation, and hypothesis testing foundations |  
-
-## 📅 Session 15: Hypothesis Testing (Inferential Statistics – Part 2) with Pandas  
-📆 Date: 17th August 2025  
-
-This session built upon our introduction to inferential statistics by focusing on **hypothesis testing**. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.  
-
-### ✅ Topics Covered:  
-- 📌 **Recap of Inferential Statistics**  
-  - Population vs Sample  
-  - Role of estimation and confidence intervals  
-
-- 🧪 **Introduction to Hypothesis Testing**  
-  - Null Hypothesis (H₀) and Alternative Hypothesis (H₁)  
-  - p-values and significance levels (α)  
-
-- 📊 **One-Sample Tests**  
-  - Z-Test for means  
-  - Concept of critical region and decision rules  
-  - Practical business/data science scenarios  
-
-- 🛠 **Hands-on Practice with Pandas**  
-  - Conducting one-sample Z-tests  
-  - Interpreting test statistics and results  
-  - Applying results to real-world datasets  
-
-📁 **Folder**:  
-[`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas)  
-
-📓 **Notebook**:  
-| File | Description |  
 |------|-------------|  
 | `OneSampleZ-Classwork.ipynb` | Covers the foundations of hypothesis testing and demonstrates one-sample Z-tests using Pandas |  
 
@@ -501,11 +429,14 @@ This repository includes all the class notes, code examples, and practice files 
 | [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.   |  
 |[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).   |
 | [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  | 
-| [`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas)   | This session built upon our introduction to inferential statistics by focusing on **hypothesis testing**. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.  |
-|| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)    | These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
-|| [`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing) | Data preprocessing techniques including handling missing values, scaling, encoding categorical variables, feature engineering, and train-test splitting |
-|| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | Introduction to Machine Learning concepts, types (supervised/unsupervised), ML workflow, and real-world applications |
-|| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression fundamentals, mathematical foundations, implementation with sklearn, and model evaluation metrics |
+| Folder | Description |
+|--------|-------------|
+| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas) | This session marked the transition from Descriptive to Inferential Statistics, focusing on how we move beyond summarizing data to making predictions and generalizations about populations using sample data. |
+| [`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas) | This session built upon our introduction to inferential statistics by focusing on hypothesis testing. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic. |
+| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas) | These sessions extended our study of hypothesis testing by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the right test for the right scenario, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
+| [`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing) | Data preprocessing techniques including handling missing values, scaling, encoding categorical variables, feature engineering, and train-test splitting. |
+| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | Introduction to Machine Learning concepts, types (supervised/unsupervised), ML workflow, and real-world applications. |
+| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression fundamentals, mathematical foundations, implementation with sklearn, and model evaluation metrics. |
 ---
 
 ## 🛠 Getting Started
