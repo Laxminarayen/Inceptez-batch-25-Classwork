@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaBoost: The Visual Deep Dive</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        :root {
+            --bg: #fdfdfd;
+            --text: #2c3e50;
+            --primary: #2c3e50;
+            --brand: #e67e22;
+            /* AdaBoost Orange */
+            --rf: #27ae60;
+            /* Random Forest Green */
+            --accent: #c0392b;
+            /* Error Red */
+            --light: #ecf0f1;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            overflow: hidden;
+        }
+
+        /* --- Layout --- */
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide {
+            position: absolute;
+            width: 90%;
+            max-width: 1200px;
+            height: 90%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px 60px;
+            box-sizing: border-box;
+            opacity: 0;
+            transform: scale(0.95);
+            pointer-events: none;
+            transition: all 0.5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eee;
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: all;
+        }
+
+        /* --- Typography --- */
+        h1 {
+            font-size: 3rem;
+            color: var(--primary);
+            margin: 0 0 10px 0;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin: 0 0 25px 0;
+            border-bottom: 5px solid var(--brand);
+            display: inline-block;
+        }
+
+        p,
+        li {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        strong {
+            color: var(--brand);
+            font-weight: bold;
+        }
+
+        /* --- Visual Components --- */
+        .flex-row {
+            display: flex;
+            gap: 40px;
+            width: 100%;
+            height: 100%;
+            align-items: flex-start;
+        }
+
+        .col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card {
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            width: 100%;
+            margin: 10px 0;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--brand);
+        }
+
+        .formula-box {
+            background: #2d3436;
+            color: #fab1a0;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* --- Tree Visuals --- */
+        .node {
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .node.root {
+            background: var(--primary);
+        }
+
+        .node.leaf {
+            background: #95a5a6;
+        }
+
+        .connector {
+            width: 3px;
+            height: 20px;
+            background: #ccc;
+            margin: 0 auto;
+        }
+
+        .branches {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .branches::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            width: 50%;
+            height: 3px;
+            background: #ccc;
+            transform: translateX(-50%);
+        }
+
+        .branch-line {
+            width: 3px;
+            height: 10px;
+            background: #ccc;
+            position: absolute;
+            top: -10px;
+        }
+
+        /* --- Graph & Interactive --- */
+        .graph-container {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            background: #fff;
+            border-left: 3px solid #333;
+            border-bottom: 3px solid #333;
+            margin-top: 20px;
+            cursor: crosshair;
+        }
+
+        .graph-point {
+            width: 20px;
+            height: 20px;
+            background: var(--brand);
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(-50%, 50%);
+            box-shadow: 0 0 15px rgba(230, 126, 34, 0.6);
+            pointer-events: none;
+        }
+
+        .graph-label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #f1c40f;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* --- Sampling Visuals --- */
+        .bucket-bar {
+            height: 60px;
+            display: flex;
+            border: 3px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 30px;
+            position: relative;
+        }
+
+        .bucket-segment {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: width 0.5s;
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .pointer {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            font-size: 3rem;
+            color: var(--primary);
+            transition: left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        /* --- Controls --- */
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            width: 60px;
+            height: 60px;
+            background: white;
+            border: 2px solid var(--primary);
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .progress-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 8px;
+            background: var(--brand);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        /* --- Tables --- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .highlight-row {
+            background-color: #fadbd8;
+            font-weight: bold;
+            color: var(--accent);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="slide-container">
+
+        <div class="slide active">
+            <div style="text-align: center; margin-top: 10%;">
+                <h1>Random Forest vs. AdaBoost</h1>
+                <h3 style="color: #7f8c8d;">Visual Master Class</h3>
+                <p>From Independent Trees to Sequential Stumps.<br>From Democracy to Meritocracy.</p>
+                <button class="nav-btn" style="width: 200px; border-radius: 10px;" onclick="nextSlide()">Start</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>1. Forest of Trees vs. Forest of Stumps</h2>
+            <div class="flex-row">
+                <div class="col">
+                    <h3 style="color: var(--rf);">Random Forest</h3>
+                    <div style="margin-top: 20px;">
+                        <div class="node root" style="background:var(--rf)">Full Depth</div>
+                        <div class="connector"></div>
+                        <div class="branches">
+                            <div class="node leaf">Split</div>
+                            <div class="node leaf">Split</div>
+                        </div>
+                        <div class="connector"></div>
+                        <div class="branches">
+                            <div class="node leaf">Leaf</div>
+                            <div class="node leaf">Leaf</div>
+                        </div>
+                    </div>
+                    <p style="margin-top:30px">Uses <strong>Full Trees</strong>.<br>Smart individually, but independent.
+                    </p>
+                </div>
+                <div class="col" style="border-left: 2px dashed #ccc;">
+                    <h3 style="color: var(--brand);">AdaBoost</h3>
+                    <div style="margin-top: 60px;">
+                        <div class="node root" style="background:var(--brand)">Stump</div>
+                        <div class="connector"></div>
+                        <div class="branches">
+                            <div class="node leaf">Yes</div>
+                            <div class="node leaf">No</div>
+                        </div>
+                    </div>
+                    <p style="margin-top:50px">Uses <strong>Stumps</strong> (1 Split).<br>Weak individually, but they
+                        work as a team.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>2. Equal Vote vs. "Amount of Say"</h2>
+            <div class="flex-row" style="align-items: center;">
+                <div class="col">
+                    <div class="card">
+                        <h3 style="color: var(--rf);">Random Forest</h3>
+                        <p><strong>One Tree = One Vote.</strong></p>
+                        <p>A genius tree and a dumb tree have equal power.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="font-size: 3rem;">VS</div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h3 style="color: var(--brand);">AdaBoost</h3>
+                        <p><strong>Weighted Voting.</strong></p>
+                        <p>Accurate Stumps get a <strong>Loud Voice</strong>.</p>
+                        <p>Inaccurate Stumps get a <strong>Whisper</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>3. Independent vs. Sequential</h2>
+            <div class="flex-row">
+                <div class="col">
+                    <h3>Random Forest (Parallel)</h3>
+                    <div style="display:flex; gap:10px; margin: 20px 0;">
+                        <div class="node leaf" style="background:var(--rf)">Tree 1</div>
+                        <div class="node leaf" style="background:var(--rf)">Tree 2</div>
+                        <div class="node leaf" style="background:var(--rf)">Tree 3</div>
+                    </div>
+                    <p>Built at the same time. Tree 2 doesn't know Tree 1 exists.</p>
+                </div>
+                <div class="col">
+                    <h3>AdaBoost (Ordered)</h3>
+                    <div style="display:flex; gap:10px; margin: 20px 0; align-items: center;">
+                        <div class="node leaf" style="background:var(--brand)">Stump 1</div>
+                        <div style="font-size: 2rem;">➜</div>
+                        <div class="node leaf" style="background:var(--brand)">Stump 2</div>
+                        <div style="font-size: 2rem;">➜</div>
+                        <div class="node leaf" style="background:var(--brand)">Stump 3</div>
+                    </div>
+                    <p>Stump 2 is built <strong>specifically</strong> to fix Stump 1's mistakes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>4. The Three Big Ideas</h2>
+            <p>AdaBoost is a loop of these three steps:</p>
+            <div style="display: flex; gap: 20px; width: 100%; margin-top: 20px;">
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem;">🔍</div>
+                    <h3>1. Find Mistakes</h3>
+                    <p>Identify which rows the current Stump got wrong.</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem;">⚖️</div>
+                    <h3>2. Reweight</h3>
+                    <p><strong>Punish</strong> mistakes (Increase Weight).<br><strong>Reward</strong> correct rows
+                        (Decrease Weight).</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem;">🗣️</div>
+                    <h3>3. Amount of Say</h3>
+                    <p>Calculate the voting power of the Stump.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>5 & 6. Our Dataset & Initial Weights</h2>
+            <p>We have <strong>5 Patients</strong>. We want to predict if they have <strong>Heart Disease</strong>.</p>
+            <div class="card" style="text-align: center;">
+                <h3>Initial Weight = 1 / Total Samples</h3>
+                <p>$$ \text{Weight} = \frac{1}{5} = 0.2 $$</p>
+            </div>
+            <table>
+                <tr>
+                    <th>Patient</th>
+                    <th>Chest Pain</th>
+                    <th>Blocked Arteries</th>
+                    <th>Disease (Target)</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>0.2</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>0.2</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>0.2</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>0.2</td>
+                </tr>
+                <tr>
+                    <td>E (Outlier)</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>0.2</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="slide">
+            <h2>7. Building Stump 1</h2>
+            <p>We test "Chest Pain" vs "Blocked Arteries".</p>
+            <div class="flex-row">
+                <div class="col">
+                    <div class="card">
+                        <h3>Option A: Chest Pain</h3>
+                        <p><strong>Correct:</strong> A, B, D</p>
+                        <p><strong>Incorrect:</strong> C, E</p>
+                        <p>Total Error: 2 mistakes</p>
+                        <div class="node leaf" style="background:var(--rf); margin-top:10px;">WINNER</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="opacity: 0.6;">
+                        <h3>Option B: Arteries</h3>
+                        <p><strong>Correct:</strong> A, C, D</p>
+                        <p><strong>Incorrect:</strong> B, E</p>
+                        <p>Total Error: 2 mistakes</p>
+                        <p>(Tie, but let's pick Chest Pain)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>9. Calculating Total Error</h2>
+            <p>Total Error is the <strong>Sum of Weights</strong> of the incorrect predictions.</p>
+            <p>Stump 1 (Chest Pain) got <strong>Patient C</strong> and <strong>Patient E</strong> wrong.</p>
+
+            <table style="width: 80%; margin: 0 auto;">
+                <tr>
+                    <th>Patient</th>
+                    <th>Weight</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>0.2</td>
+                    <td>Correct</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>0.2</td>
+                    <td>Correct</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>C</td>
+                    <td>0.2</td>
+                    <td>WRONG</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>0.2</td>
+                    <td>Correct</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>E</td>
+                    <td>0.2</td>
+                    <td>WRONG</td>
+                </tr>
+            </table>
+
+            <div class="formula-box">
+                Total Error = 0.2 + 0.2 = 0.4
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>10. Amount of Say (Trust Score)</h2>
+            <p>How much do we trust a Stump with <strong>0.4 Error</strong>?</p>
+
+            <div class="formula-box">
+                $$ \text{Say} = \frac{1}{2} \ln(\frac{1 - \text{Error}}{\text{Error}}) $$
+            </div>
+
+            <div class="card">
+                <h3>Let's Plug it in:</h3>
+                <p>$$ \text{Say} = 0.5 \times \ln(\frac{1 - 0.4}{0.4}) $$</p>
+                <p>$$ \text{Say} = 0.5 \times \ln(1.5) \approx \mathbf{0.2} $$</p>
+            </div>
+            <p>This stump gets a vote of <strong>0.2</strong> (Low, but positive).</p>
+        </div>
+
+        <div class="slide">
+            <h2>10 & 11. Visualizing "Amount of Say"</h2>
+            <p>See how Error affects Voting Power. Move mouse over the graph.</p>
+
+            <div class="graph-container" onmousemove="updateGraph(event)">
+                <div class="graph-label" id="sayLabel">Error: 0.5 -> Say: 0</div>
+                <div class="graph-point" id="graphPoint" style="left: 50%; top: 50%;"></div>
+                <svg width="100%" height="100%" style="position: absolute; top:0; left:0; pointer-events:none;">
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#ccc" stroke-width="2" />
+                    <text x="10" y="45%" fill="#777">High Trust</text>
+                    <text x="10" y="55%" fill="#777">Negative Trust</text>
+                    <path d="M 0 20 Q 200 50, 400 150 T 800 150 T 1200 330" stroke="var(--brand)" stroke-width="4"
+                        fill="none" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>12. Increasing Weight (The Penalty)</h2>
+            <p>We must increase the weight of <strong>Patient C & E</strong> (The Mistakes).</p>
+
+            <div class="formula-box">
+                $$ \text{New Weight} = \text{Old Weight} \times e^{\text{Say}} $$
+            </div>
+
+            <div class="card">
+                <h3>Calculation:</h3>
+                <p>Old Weight = 0.2</p>
+                <p>Say = 0.2</p>
+                <p>$$ 0.2 \times e^{0.2} \approx 0.2 \times 1.22 = \mathbf{0.244} $$</p>
+            </div>
+            <p>Their weight grew from <strong>0.20</strong> to <strong>0.24</strong>.</p>
+        </div>
+
+        <div class="slide">
+            <h2>12. Decreasing Weight (The Reward)</h2>
+            <p>We decrease the weight of <strong>Patient A, B, D</strong> (The Correct ones).</p>
+
+            <div class="formula-box">
+                $$ \text{New Weight} = \text{Old Weight} \times e^{-\text{Say}} $$
+            </div>
+
+            <div class="card">
+                <h3>Calculation:</h3>
+                <p>Old Weight = 0.2</p>
+                <p>$$ 0.2 \times e^{-0.2} \approx 0.2 \times 0.81 = \mathbf{0.16} $$</p>
+            </div>
+            <p>Their weight shrank from <strong>0.20</strong> to <strong>0.16</strong>.</p>
+        </div>
+
+        <div class="slide">
+            <h2>13. Normalizing Weights</h2>
+            <p>New weights must sum to 1. Let's check our sum.</p>
+
+            <div class="flex-row">
+                <div class="col">
+                    <h3>Raw New Weights</h3>
+                    <p>A (Right): 0.16</p>
+                    <p>B (Right): 0.16</p>
+                    <p style="color:var(--accent);">C (Wrong): 0.24</p>
+                    <p>D (Right): 0.16</p>
+                    <p style="color:var(--accent);">E (Wrong): 0.24</p>
+                    <hr width="50%">
+                    <p>Sum = <strong>0.96</strong></p>
+                </div>
+                <div class="col" style="justify-content:center;">
+                    <div style="font-size:3rem;">➜</div>
+                    <p>Divide everyone by 0.96</p>
+                </div>
+                <div class="col">
+                    <h3>Normalized</h3>
+                    <p>0.17</p>
+                    <p>0.17</p>
+                    <p style="color:var(--accent); font-weight:bold;">0.25</p>
+                    <p>0.17</p>
+                    <p style="color:var(--accent); font-weight:bold;">0.25</p>
+                    <hr width="50%">
+                    <p>Sum = <strong>1.00</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>14. Creating the Next Dataset</h2>
+            <p>We create a "Roulette Wheel" based on the new weights.</p>
+            <p><strong>C and E</strong> now have the biggest slices (25% each).</p>
+
+            <div class="bucket-bar">
+                <div class="bucket-segment" style="width: 17%; background: #bdc3c7;">A</div>
+                <div class="bucket-segment" style="width: 17%; background: #bdc3c7;">B</div>
+                <div class="bucket-segment" style="width: 25%; background: var(--accent);">C</div>
+                <div class="bucket-segment" style="width: 16%; background: #bdc3c7;">D</div>
+                <div class="bucket-segment" style="width: 25%; background: var(--accent);">E</div>
+                <div class="pointer" id="pointer">⬇</div>
+            </div>
+            <button class="btn" style="margin-top:30px;" onclick="spinWheel()">Spin the Wheel</button>
+            <p id="spinResult" style="font-weight:bold; margin-top:20px;">Result: ?</p>
+        </div>
+
+        <div class="slide">
+            <h2>15 & 16. Simulation: The New Table</h2>
+            <p>We pick 5 random samples. Because C and E are big, they get picked more.</p>
+            <div class="flex-row">
+                <div class="col">
+                    <h3>Old Data</h3>
+                    <div class="node leaf">A</div>
+                    <div class="node leaf">B</div>
+                    <div class="node leaf" style="background:var(--accent)">C</div>
+                    <div class="node leaf">D</div>
+                    <div class="node leaf" style="background:var(--accent)">E</div>
+                </div>
+                <div class="col">
+                    <div style="font-size:3rem;">➜</div>
+                </div>
+                <div class="col">
+                    <h3>New Data (For Stump 2)</h3>
+                    <div class="node leaf" style="background:var(--accent)">C</div>
+                    <div class="node leaf">B</div>
+                    <div class="node leaf" style="background:var(--accent)">E</div>
+                    <div class="node leaf" style="background:var(--accent)">C</div>
+                    <div class="node leaf" style="background:var(--accent)">E</div>
+                </div>
+            </div>
+            <p><strong>Notice:</strong> C and E appear twice! Stump 2 is forced to learn them.</p>
+        </div>
+
+        <div class="slide">
+            <h2>17. The Penalty Block</h2>
+            <div class="card" style="background: #fff8e1; border-color: var(--brand);">
+                <h3>Why does this work?</h3>
+                <p>If Stump 2 ignores Patient C, it will get <strong>2 questions wrong</strong> (since C is there
+                    twice).</p>
+                <p>This will create a huge Error rate.</p>
+                <p>To minimize error, Stump 2 naturally focuses on the duplicates.</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>18. The Loop</h2>
+            <p>We repeat this 100 times.</p>
+            <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+                <div class="node leaf" style="width:200px; background:#ddd; color:#333;">Stump 1<br>(Fixes nothing)
+                </div>
+                <div style="font-size:2rem;">➜</div>
+                <div class="node leaf" style="width:200px; background:#ddd; color:#333;">Stump 2<br>(Fixes C & E)</div>
+                <div style="font-size:2rem;">➜</div>
+                <div class="node leaf" style="width:200px; background:#ddd; color:#333;">Stump 3<br>(Fixes new errors)
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>19. Final Voting Simulation</h2>
+            <p>A new patient comes in. The Stumps vote.</p>
+            <div class="flex-row" style="align-items: center; justify-content: center;">
+                <div class="col">
+                    <h3>Stump 1</h3>
+                    <div class="node leaf" style="background:var(--rf)">YES</div>
+                    <p>Say: 0.2</p>
+                </div>
+                <div class="col">
+                    <h3>Stump 2</h3>
+                    <div class="node leaf" style="background:var(--rf)">YES</div>
+                    <p>Say: 0.5</p>
+                </div>
+                <div class="col">
+                    <h3>Stump 3</h3>
+                    <div class="node leaf" style="background:var(--accent)">NO</div>
+                    <p>Say: 0.3</p>
+                </div>
+            </div>
+            <div class="card" style="text-align: center; width: 50%; margin-top: 20px;">
+                <h3>Total Votes</h3>
+                <p>YES: 0.2 + 0.5 = <strong>0.7</strong></p>
+                <p>NO: <strong>0.3</strong></p>
+                <h2 style="color:var(--rf)">Prediction: YES</h2>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>20. Summary</h2>
+            <ul style="line-height: 2;">
+                <li><strong>Forest of Stumps:</strong> Many weak learners.</li>
+                <li><strong>Sequential:</strong> Errors drive the next model.</li>
+                <li><strong>Weights:</strong> We expand the hard data points.</li>
+                <li><strong>Amount of Say:</strong> We trust the smart stumps more.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <button class="nav-btn" onclick="prevSlide()">❮</button>
+        <button class="nav-btn" onclick="nextSlide()">❯</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const progressBar = document.getElementById('progressBar');
+
+        function updateSlide() {
+            slides.forEach((s, i) => {
+                s.classList.remove('active');
+                if (i === currentSlide) s.classList.add('active');
+            });
+            progressBar.style.width = ((currentSlide + 1) / slides.length) * 100 + "%";
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) { currentSlide++; updateSlide(); }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) { currentSlide--; updateSlide(); }
+        }
+
+        // Graph Interaction
+        function updateGraph(e) {
+            const container = document.querySelector('.graph-container');
+            const rect = container.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const w = rect.width;
+
+            let error = x / w;
+            if (error < 0.01) error = 0.01;
+            if (error > 0.99) error = 0.99;
+
+            let say = 0.5 * Math.log((1 - error) / error);
+
+            // Map say to y position (approx)
+            // Say 0 = middle (150px). Say 2 = top. Say -2 = bottom.
+            let y = 150 - (say * 50);
+            if (y < 20) y = 20;
+            if (y > 280) y = 280;
+
+            const point = document.getElementById('graphPoint');
+            const label = document.getElementById('sayLabel');
+
+            point.style.left = x + "px";
+            point.style.top = y + "px";
+            label.innerHTML = `Error: ${error.toFixed(2)} | Say: ${say.toFixed(2)}`;
+        }
+
+        // Wheel Spin
+        function spinWheel() {
+            const pointer = document.getElementById('pointer');
+            const res = document.getElementById('spinResult');
+            let rand = Math.random() * 95;
+            pointer.style.left = rand + "%";
+
+            let txt = "A";
+            if (rand > 17) txt = "B";
+            if (rand > 34) txt = "C (Hard)";
+            if (rand > 59) txt = "D";
+            if (rand > 75) txt = "E (Hard)";
+
+            res.innerText = "Picked: " + txt;
+        }
+
+        // Key Nav
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "ArrowRight") nextSlide();
+            if (e.key === "ArrowLeft") prevSlide();
+        });
+
+    </script>
+</body>
+
+</html>
