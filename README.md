@@ -1,167 +1,169 @@
-# 🚀 INCEPTEZ BATCH 25 
+# 🚀 Inceptez Batch-25 Classwork
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Ready-orange.svg)](https://jupyter.org/)
-[![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
-[![AWS](https://img.shields.io/badge/AWS-Deploy-orange.svg)](https://aws.amazon.com/)
-[![MLOps](https://img.shields.io/badge/MLOps-Ready-green.svg)](#)
-[![AI](https://img.shields.io/badge/Generative%20AI-Included-purple.svg)](#)
+[![Status](https://img.shields.io/badge/Status-Refactored%20%26%20Cleaned-green.svg)](#)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 ## 📋 Table of Contents
 
-- [🎯 About](#about)
-- [🛠️ Prerequisites](#prerequisites)  
-- [🗺️ Learning Roadmap](#learning-roadmap)
-- [📚 Curriculum](#curriculum)
-- [🚀 Quick Start Guide](#quick-start-guide)
-- [🐍 Python for Data Science](#python-for-data-science)
-- [📊 Statistics](#introduction-to-statistics)
-- [🤖 Machine Learning](#machine-learning)
-- [🤝 Community & Support](#community--support)
+- [🎯 About](#-about)
+- [🛠️ Prerequisites](#%EF%B8%8F-prerequisites)
+- [🐍 Python & Data Wrangling](#-python--data-wrangling)
+- [📊 Statistics & Inference](#-statistics--inference)
+- [🤖 Machine Learning](#-machine-learning)
+- [📝 Exam & Assessments](#-exam--assessments)
+- [📂 Folder Structure](#-folder-structure)
+- [🤝 Community & Support](#-community--support)
 
-## About
+---
 
-**Join Inceptez and become a Data Science Legend!** 🌟
+## 🎯 About
 
-This comprehensive repository contains **46+ modules** covering everything you need to master the complete data science ecosystem:
+**Welcome to the Inceptez Batch-25 Classwork Repository!** 🌟
 
-- **🐍 Python Programming**: From basics to advanced data manipulation
-- **📊 Statistics & Mathematics**: Statistical foundations for data science
-- **🤖 Machine Learning**: Supervised, unsupervised, and ensemble methods
-- **⚙️ MLOps**: Production-ready model deployment and monitoring
-- **☁️ Cloud Computing**: AWS, Docker, and scalable deployments
-- **🧠 Deep Learning**: Neural networks, CNNs, RNNs, and transformers
-- **👁️ Computer Vision**: Image processing and object detection
-- **🔤 Natural Language Processing**: Text analysis and language models
-- **🎨 Generative AI**: GPT models, LangChain, RAG, and AI agents
-- **🔗 Multi-Agent Systems**: Advanced AI orchestration and enterprise applications
-- **👁️ Multimodal AI**: Vision-language models and cutting-edge AI architectures
-- **🔒 Production Security**: Enterprise deployment, monitoring, and governance
+This repository acts as the central hub for our Data Science & Machine Learning journey. It contains detailed class notes, code examples, and practice files for every session, organized to guide you from Python fundamentals to advanced Machine Learning algorithms.
 
-### 🗺️ **Complete Module Structure:**
-📋 Core Foundations (01-19)
-├── 01: Python Fundamentals
-├── 02: Statistics
-├── 03: Machine Learning Algorithms, Deployment, MLOps & Production
+The codebase has been **cleaned and refactored** to ensure easy navigation and industry-standard best practices.
+
+---
 
 ## 🛠️ Prerequisites
 
 ### Essential Knowledge:
 - **Mathematics**: Basic school-level math (algebra, geometry)
-- **Statistics**: Elementary statistics concepts (helpful but not mandatory)
-- **Programming**: No prior programming experience required - we start from scratch!
+- **Programming**: No prior experience required—we start from scratch!
 
 ### What You'll Need:
 - **Computer**: Windows, macOS, or Linux
-- **Internet Connection**: For accessing cloud services and resources
-- **Time Commitment**: 10-15 hours per week for optimal progress
+- **Tools**: Jupyter Lab, Python 3.x, Git
 - **Mindset**: Curiosity and persistence to tackle challenging problems
 
-### Recommended (Optional):
-- Basic familiarity with Excel or Google Sheets
-- High school mathematics refresher
-- Interest in data and problem-solving
-
-<be>
-
-## 🗺️ Learning Roadmap
-
-### 📅 Study Plans & Timelines:
-
-| Plan Type | Duration | Focus | Link |
-|-----------|----------|-------|---------|
-| **🎯 Complete RoadMap** | 6-12 months | Full curriculum with projects | [🗺️ View Plan](https://docs.google.com/spreadsheets/d/13EVKNbPUYTKVL8lcT3-x1Cf8fL5pxiTrI9MRI6wUeg4/edit?usp=sharing) |
-| **⚡ Short Plan** | 3-6 months | Core concepts & essentials | [🚀 Quick Start](https://docs.google.com/spreadsheets/d/1uiSSkVBZzVCmpc6ewM5y4ZoRCWGRDk08o-Pk_2q5BcU/) |
-| **🧠 Deep Learning Plan** | 4-8 months | Neural networks & AI | [📈 AI Focus](https://docs.google.com/spreadsheets/d/18r94CytRiFCf7WKfiGqKbCNywhoxNuqJ/edit?usp=sharing&ouid=113375722781003774560&rtpof=true&sd=true) |
-
-### 🏁 Learning Tracks:
-
-#### 🌱 **Beginner Track** (0-3 months)
-- Python fundamentals & data manipulation
-- Statistics and probability basics
-- First machine learning models
-
-#### 🌿 **Intermediate Track** (3-6 months) 
-- Advanced ML algorithms
-- Model evaluation & deployment
-- Unsupervised learning techniques
-
-#### 🌳 **Advanced Track** (6-12 months)
-- Deep learning & neural networks
-- NLP and computer vision
-- Generative AI and transformers
-
-#### 🚀 **Expert Track** (9-15 months)
-- MLOps and production systems
-- Advanced AI architectures
-- Research and innovation projects
-
 ---
 
-## 📚 Curriculum
+## 🐍 Python & Data Wrangling
 
-### 🎆 Core Learning Modules
+> **Master Python programming and Data Manipulation from zero to hero!**
 
-| Module | Topic | Hands-on Projects | Link |
-|--------|--------|-------------------|------|
-| **🐍** | **Python for Data Science** | Data analysis & visualization | [📊 Explore](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/01.%20Python) |
-| **📊** | **Introduction to Statistics** | Statistical analysis projects | [📈 Learn](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/02.%20Statistics) |
-| **🤖** | **Machine Learning** | Predictive models & algorithms | [🎡 Build](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/04.%20Linear%20Regression) |
-| **🧠** | **Deep Learning** | Neural networks & AI models | [🔮 Discover](<TO BE TAKEN>) |
-| **🔤** | **Natural Language Processing** | Text analysis & language models | [🔍 Process](<TO BE TAKEN>) |
-
-## 🎯 What Makes This Special?
-
-- **📝 Real-world Projects**: Every module includes practical, industry-relevant projects
-- **🚀 Production-Ready**: Learn deployment with Docker, AWS, and cloud platforms
-- **🔄 Continuous Learning**: From basics to cutting-edge AI research
-- **🤝 Community Support**: Learn alongside fellow data science enthusiasts
-- **🏆 Certification Path**: Build a portfolio worthy of top tech companies
-
----
-
-# 🐍 Python for Data Science
-
-> **Master Python programming from zero to data science hero!**
-
-### 🎡 Learning Journey:
+### 🎡 Learning Journey (Classes 1–11):
 
 | Phase | Topic | Skills You'll Gain | Link |
 |-------|-------|-------------------|------|
 | **1️⃣** | **Foundations & Setup** | Python setup, execution types, identifiers | [🚀 Begin](./Python-Class-1-Runningtypes-Identifiers-Variables) |
-| **2️⃣** | **Memory & Structures** | Memory behavior, core data structures | [🧠 Memory](./01.%20Python%20Fundamentals/Python-Class2-Memory-Properties-DataStructures) |
-| **3️⃣** | **Control Flow** | Loops, conditional logic, Time Complexity | [⚙️ Logic](./01.%20Python%20Fundamentals/Python-Class3-ControlStatements-Loops-TimeComplexity) |
-| **4️⃣** | **Operators & Functions** | Bitwise ops, augmented arithmetic, basic recursion | [🔧 Tools](./01.%20Python%20Fundamentals/Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) |
-| **5️⃣** | **Advanced Algorithms** | Function overloading, `*args`, searching algos | [🔍 Search](./01.%20Python%20Fundamentals/Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) |
-| **6️⃣** | **Optimization** | List/Dict comprehensions, speed optimization | [⚡ Speed](./01.%20Python%20Fundamentals/Python-Class6-List-Dictionary-Comprehension-problems) |
-| **7️⃣** | **OOP Fundamentals** | Classes, objects, inheritance | [🏗️ Build](./01.%20Python%20Fundamentals/Python-Class7-Classes-Introduction) |
-| **8️⃣** | **Advanced OOP & Strings** | Variable scoping (LEGB), string manipulation | [🧩 Design](./01.%20Python%20Fundamentals/Python-Class8-ClassesAdvanced-StringManipulations) |
-| **9️⃣** | **NumPy & Pandas Intro** | Arrays vs Lists, basic data operations | [📊 Analyze](./01.%20Python%20Fundamentals/Python-Class9-Numpy-Pandas-Intro) |
-| **🔟** | **Pandas Internals** | Data types, storage efficiency, representations | [💾 Store](./01.%20Python%20Fundamentals/Python-Class10-Pandas-Basics) |
-| **1️⃣1️⃣** | **Data Wrangling** | Intermediate transformation, cleaning techniques | [🧹 Clean](./01.%20Python%20Fundamentals/Python-Class11-Pandas-Intermediate) |
+| **2️⃣** | **Memory & Structures** | Memory behavior, core data structures | [🧠 Memory](./Python-Class2-Memory-Properties-DataStructures) |
+| **3️⃣** | **Control Flow** | Loops, conditional logic, Time Complexity | [⚙️ Logic](./Python-Class3-ControlStatements-Loops-TimeComplexity) |
+| **4️⃣** | **Operators & Functions** | Bitwise ops, augmented arithmetic, basic recursion | [🔧 Tools](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) |
+| **5️⃣** | **Advanced Algorithms** | Function overloading, `*args`, searching algos | [🔍 Search](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) |
+| **6️⃣** | **Optimization** | List/Dict comprehensions, speed optimization | [⚡ Speed](./Python-Class6-List-Dictionary-Comprehension-problems) |
+| **7️⃣** | **OOP Fundamentals** | Classes, objects, inheritance | [🏗️ Build](./Python-Class7-Classes-Introduction) |
+| **8️⃣** | **Advanced OOP & Strings** | Variable scoping (LEGB), string manipulation | [🧩 Design](./Python-Class8-ClassesAdvanced-StringManipulations) |
+| **9️⃣** | **NumPy & Pandas Intro** | Arrays vs Lists, basic data operations | [📊 Analyze](./Python-Class9-Numpy-Pandas-Intro) |
+| **🔟** | **Pandas Internals** | Data types, storage efficiency, representations | [💾 Store](./Python-Class10-Pandas-Basics) |
+| **1️⃣1️⃣** | **Data Wrangling** | Intermediate transformation, cleaning techniques | [🧹 Clean](./Python-Class11-Pandas-Intermediate) |
 
 ### 🎯 Key Projects & Concepts:
 - **Algorithm Optimization**: Understand Big-O and optimize list vs. dictionary performance.
 - **Custom Data Structures**: Build robust applications using Object-Oriented Programming.
-- **Data Transformation Pipeline**: meaningful analysis using advanced Pandas techniques.
+- **Data Transformation Pipeline**: Meaningful analysis using advanced Pandas techniques.
 
 ---
 
-# 📊 Introduction to Statistics
+## 📊 Statistics & Inference
 
 > **Build the mathematical foundation that powers all data science!**
 
-### 📊 Learning Journey:
+### 📈 Learning Journey (Classes 12–17):
 
 | Phase | Topic | Skills You'll Gain | Link |
 |-------|-------|-------------------|------|
-| **1️⃣2️⃣** | **Descriptive Statistics I** | Central tendency, data summarization, Pandas stats | [📉 Summarize](./02.%20Statistics/Python-Class12-DescriptiveStatistics-Pandas) |
+| **1️⃣2️⃣** | **Descriptive Statistics I** | Central tendency, data summarization, Pandas stats | [📉 Summarize](./Python-Class12-DescriptiveStatistics-Pandas) |
 | **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](./Python-Class13-DescriptiveStatistics2-Pandas) |
 | **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](./Python-Class14-Inferential1-Pandas) |
 | **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](./Python-Class15-Hypothesis1-Inferential2-Pandas) |
-| **1️⃣6️⃣-1️⃣7️⃣** | **Advanced Hypothesis Tests** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](./Python-Class16-17-Hypothesis2-Tests-Pandas) |
+| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](./Python-Class16-17-Hypothesis2-Tests-Pandas) |
+| **1️⃣7️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | [🧹 Prep](./Python-Class17-DataPreprocessing) |
 
 ### 🎯 Key Concepts & Applications:
 - **Exploratory Data Analysis (EDA)**: Uncover hidden patterns and relationships in raw datasets.
 - **Statistical Inference**: Make confident generalizations about large populations using small samples.
 - **Hypothesis Testing Framework**: Scientifically validate business claims and experimental results.
+
+---
+
+## 🤖 Machine Learning
+
+> **Transform data into intelligent predictions and automated decisions!**
+
+### 🎆 **Core ML Modules**
+
+| Algorithm | Use Case | Industry Applications | Link |
+|-----------|----------|---------------------|------|
+| **ML-01** | **Introduction to ML** | Supervised vs Unsupervised, ML Workflow | [🚀 Start](./01.%20Intro-Machine%20Learning) |
+| **ML-02** | **Linear Regression** | Sales forecasting, price prediction, Math intuition | [📈 Learn](./02.%20Linear%20Regression) |
+
+---
+
+## 📝 Exam & Assessments
+
+### 📅 Exam Details
+
+**Part 1 – Online Quiz (MCQs)**
+- **Topic:** Python, Pandas, Statistics
+- **Link:** [👉 Join Quiz Here](https://wayground.com/join?gc=07791682)
+- **Deadline:** Aug 31, 2025, 11:59 AM IST
+
+**Part 2 – Coding Assignment**
+- **Task:** Solve 6 coding questions in the provided notebook.
+- **Notebook:** [Download Here](https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/blob/main/Test-1/InceptezExam1.ipynb)
+- **Submission:** [Upload to Google Drive](https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
+
+---
+
+## 📂 Folder Structure
+
+<details>
+<summary>Click to expand full folder list</summary>
+
+| Folder | Description |
+|--------|-------------|
+| [`Python-Class-1...`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Identifiers & Variables |
+| [`Python-Class2...`](./Python-Class2-Memory-Properties-DataStructures) | Memory & Data Structures |
+| [`Python-Class3...`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Loops & Time Complexity |
+| [`Python-Class4...`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise & Functions |
+| [`Python-Class5...`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Recursion & Searching | 
+| [`Python-Class6...`](./Python-Class6-List-Dictionary-Comprehension-problems) | Comprehensions |
+| [`Python-Class7...`](./Python-Class7-Classes-Introduction) | Classes Introduction |
+| [`Python-Class8...`](./Python-Class8-ClassesAdvanced-StringManipulations) | Advanced Strings & OOP |
+| [`Python-Class9...`](./Python-Class9-Numpy-Pandas-Intro) | NumPy & Pandas Intro |
+| [`Python-Class10...`](./Python-Class10-Pandas-Basics) | Pandas Basics |
+| [`Python-Class11...`](./Python-Class11-Pandas-Intermediate) | Pandas Intermediate |
+| [`Python-Class12...`](./Python-Class12-DescriptiveStatistics-Pandas) | Descriptive Statistics I |
+| [`Python-Class13...`](./Python-Class13-DescriptiveStatistics2-Pandas) | Descriptive Statistics II |
+| [`Python-Class14...`](./Python-Class14-Inferential1-Pandas) | Inferential Statistics I |
+| [`Python-Class15...`](./Python-Class15-Hypothesis1-Inferential2-Pandas) | Hypothesis Testing I |
+| [`Python-Class16-17...`](./Python-Class16-17-Hypothesis2-Tests-Pandas) | Hypothesis Testing II |
+| [`Python-Class17...`](./Python-Class17-DataPreprocessing) | Data Preprocessing |
+| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | ML Introduction |
+| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression |
+
+</details>
+
+---
+
+## 🤝 Community & Support
+
+### 👥 **Join the Community**
+- **Discord/Slack**: Connect with fellow learners
+- **Study Groups**: Form local or online study partnerships
+- **Issues**: Found a bug? Open an issue on this repo!
+
+<div align="center">
+
+### 🚀 **"Data is the new oil, but data science is the refinery."**
+
+**[⭐ Star this repository](https://github.com/Laxminarayen/Inceptez-batch-25-Classwork)** |
+**[🍴 Fork and contribute](https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/fork)**
+
+*Built with ❤️ by the Inceptez team and the data science community*
+
+</div>
