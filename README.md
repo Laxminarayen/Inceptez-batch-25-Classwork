@@ -97,9 +97,9 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 | Module | Topic | Key Concepts | Link |
 | :--- | :--- | :--- | :--- |
 | **01** | **Data Preprocessing** | Cleaning, Scaling, Encoding | [🧹 Prep](./03.%20Machine%20Learning%20Algorithms/01.%20DataPreprocessing/) |
-| **02** | **KNN & Image Proc.** | K-Nearest Neighbors, Basic CV | [🖼️ Vision](./03.%20Machine%20Learning%20Algorithms/02.%20Image%20Processing%20and%20KNN/) |
+| **02** | **KNN & Image Proc.** | K-Nearest Neighbors, Basic image proecssing techniques | [🖼️ Vision](./03.%20Machine%20Learning%20Algorithms/02.%20Image%20Processing%20and%20KNN/) |
 | **03** | **ML Introduction** | Workflow, Types of ML | [🚀 Intro](./03.%20Machine%20Learning%20Algorithms/03.%20Intro-Machine%20Learning/Presentation/) |
-| **04-05** | **Linear Regression** | Simple/Multiple Regression, Code-along | [📈 Linear](./03.%20Machine%20Learning%20Algorithms/04.%20Linear%20Regression/) |
+| **04-05** | **Linear Regression** | Linear Regression, Code-along | [📈 Linear](./03.%20Machine%20Learning%20Algorithms/04.%20Linear%20Regression/) |
 | **06** | **Deployment** | Streamlit, GCP Cloud Deployment | [☁️ Deploy](./03.%20Machine%20Learning%20Algorithms/06.%20StreamlitGCPDeployment/) |
 | **07** | **Polynomial Reg.** | Non-linear relationships | [〰️ Poly](./03.%20Machine%20Learning%20Algorithms/07.%20Polynomial%20Regression/) |
 | **08** | **Regularization** | Lasso, Ridge, Handling Overfitting | [⚖️ Tune](./03.%20Machine%20Learning%20Algorithms/08.%20Regularization/) |
