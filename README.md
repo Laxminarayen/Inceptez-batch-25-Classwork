@@ -39,7 +39,6 @@ This comprehensive repository contains **46+ modules** covering everything you n
 - **🔒 Production Security**: Enterprise deployment, monitoring, and governance
 
 ### 🗺️ **Complete Module Structure:**
-```
 📋 Core Foundations (01-19)
 ├── 01: Python Fundamentals
 ├── 02: Statistics
@@ -148,3 +147,21 @@ This comprehensive repository contains **46+ modules** covering everything you n
 
 ---
 
+# 📊 Introduction to Statistics
+
+> **Build the mathematical foundation that powers all data science!**
+
+### 📊 Learning Journey:
+
+| Phase | Topic | Skills You'll Gain | Link |
+|-------|-------|-------------------|------|
+| **1️⃣2️⃣** | **Descriptive Statistics I** | Central tendency, data summarization, Pandas stats | [📉 Summarize](./02.%20Statistics/Python-Class12-DescriptiveStatistics-Pandas) |
+| **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](./Python-Class13-DescriptiveStatistics2-Pandas) |
+| **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](./Python-Class14-Inferential1-Pandas) |
+| **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](./Python-Class15-Hypothesis1-Inferential2-Pandas) |
+| **1️⃣6️⃣-1️⃣7️⃣** | **Advanced Hypothesis Tests** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](./Python-Class16-17-Hypothesis2-Tests-Pandas) |
+
+### 🎯 Key Concepts & Applications:
+- **Exploratory Data Analysis (EDA)**: Uncover hidden patterns and relationships in raw datasets.
+- **Statistical Inference**: Make confident generalizations about large populations using small samples.
+- **Hypothesis Testing Framework**: Scientifically validate business claims and experimental results.
