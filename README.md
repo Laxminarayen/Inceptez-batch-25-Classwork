@@ -49,17 +49,17 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 
 | Phase | Topic | Skills You'll Gain | Link |
 |-------|-------|-------------------|------|
-| **1️⃣** | **Foundations & Setup** | Python setup, execution types, identifiers | [🚀 Begin](./Python-Class-1-Runningtypes-Identifiers-Variables) |
-| **2️⃣** | **Memory & Structures** | Memory behavior, core data structures | [🧠 Memory](./Python-Class2-Memory-Properties-DataStructures) |
-| **3️⃣** | **Control Flow** | Loops, conditional logic, Time Complexity | [⚙️ Logic](./Python-Class3-ControlStatements-Loops-TimeComplexity) |
-| **4️⃣** | **Operators & Functions** | Bitwise ops, augmented arithmetic, basic recursion | [🔧 Tools](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) |
-| **5️⃣** | **Advanced Algorithms** | Function overloading, `*args`, searching algos | [🔍 Search](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) |
-| **6️⃣** | **Optimization** | List/Dict comprehensions, speed optimization | [⚡ Speed](./Python-Class6-List-Dictionary-Comprehension-problems) |
-| **7️⃣** | **OOP Fundamentals** | Classes, objects, inheritance | [🏗️ Build](./Python-Class7-Classes-Introduction) |
-| **8️⃣** | **Advanced OOP & Strings** | Variable scoping (LEGB), string manipulation | [🧩 Design](./Python-Class8-ClassesAdvanced-StringManipulations) |
-| **9️⃣** | **NumPy & Pandas Intro** | Arrays vs Lists, basic data operations | [📊 Analyze](./Python-Class9-Numpy-Pandas-Intro) |
-| **🔟** | **Pandas Internals** | Data types, storage efficiency, representations | [💾 Store](./Python-Class10-Pandas-Basics) |
-| **1️⃣1️⃣** | **Data Wrangling** | Intermediate transformation, cleaning techniques | [🧹 Clean](./Python-Class11-Pandas-Intermediate) |
+| **1️⃣** | **Foundations & Setup** | Python setup, execution types, identifiers | [🚀 Begin](./01.%20Python%20Fundamentals/01.%20Runningtypes-Identifiers-Variables/) |
+| **2️⃣** | **Memory & Structures** | Memory behavior, core data structures | [🧠 Memory](01.%20Python%20Fundamentals/02.%20Memory-Properties-DataStructures/) |
+| **3️⃣** | **Control Flow** | Loops, conditional logic, Time Complexity | [⚙️ Logic](01.%20Python%20Fundamentals/03.%20ControlStatements-Loops-TimeComplexity/) |
+| **4️⃣** | **Operators & Functions** | Bitwise ops, augmented arithmetic, basic recursion | [🔧 Tools](01.%20Python%20Fundamentals/04.%20BitwiseOperators-AugementedArithmetics-Functions-Classes/) |
+| **5️⃣** | **Advanced Algorithms** | Function overloading, `*args`, searching algos | [🔍 Search](01.%20Python%20Fundamentals/05.%20Arguments-FunctionOverloading-Recurssion-SearchingAlgos/) |
+| **6️⃣** | **Optimization** | List/Dict comprehensions, speed optimization | [⚡ Speed](01.%20Python%20Fundamentals/06.%20List-Dictionary-Comprehension-problems/) |
+| **7️⃣** | **OOP Fundamentals** | Classes, objects, inheritance | [🏗️ Build](01.%20Python%20Fundamentals/07.%20Class7-Classes-Introduction/) |
+| **8️⃣** | **Advanced OOP & Strings** | Variable scoping (LEGB), string manipulation | [🧩 Design](01.%20Python%20Fundamentals/08.%20ClassesAdvanced-StringManipulations/) |
+| **9️⃣** | **NumPy & Pandas Intro** | Arrays vs Lists, basic data operations | [📊 Analyze](01.%20Python%20Fundamentals/09.%20Numpy-Pandas-Intro/) |
+| **🔟** | **Pandas Internals** | Data types, storage efficiency, representations | [💾 Store](01.%20Python%20Fundamentals/10.%20Pandas-Basics/) |
+| **1️⃣1️⃣** | **Data Wrangling** | Intermediate transformation, cleaning techniques | [🧹 Clean](01.%20Python%20Fundamentals/11.%20Pandas-Intermediate/) |
 
 ### 🎯 Key Projects & Concepts:
 - **Algorithm Optimization**: Understand Big-O and optimize list vs. dictionary performance.
@@ -76,13 +76,11 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 
 | Phase | Topic | Skills You'll Gain | Link |
 |-------|-------|-------------------|------|
-| **1️⃣2️⃣** | **Descriptive Statistics I** | Central tendency, data summarization, Pandas stats | [📉 Summarize](./Python-Class12-DescriptiveStatistics-Pandas) |
-| **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](./Python-Class13-DescriptiveStatistics2-Pandas) |
-| **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](./Python-Class14-Inferential1-Pandas) |
-| **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](./Python-Class15-Hypothesis1-Inferential2-Pandas) |
-| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](./Python-Class16-17-Hypothesis2-Tests-Pandas) |
-| **1️⃣7️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | [🧹 Prep](./Python-Class17-DataPreprocessing) |
-
+| **1️⃣2️⃣** | **Descriptive Statistics I** | Central tendency, data summarization, Pandas stats | [📉 Summarize](02.%20Statistics/01.%20DescriptiveStatistics-Pandas/) |
+| **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](02.%20Statistics/02.%20DescriptiveStatistics2-Pandas/) |
+| **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](02.%20Statistics/03.%20Inferential1-Pandas/) |
+| **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](02.%20Statistics/04.%20Hypothesis1-Inferential2-Pandas/) |
+| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](02.%20Statistics/05.%20Hypothesis2-Inferential3-Pandas/) |
 ### 🎯 Key Concepts & Applications:
 - **Exploratory Data Analysis (EDA)**: Uncover hidden patterns and relationships in raw datasets.
 - **Statistical Inference**: Make confident generalizations about large populations using small samples.
@@ -98,6 +96,7 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 
 | Algorithm | Use Case | Industry Applications | Link |
 |-----------|----------|---------------------|------|
+| **1️⃣7️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | [🧹 Prep](./Python-Class17-DataPreprocessing) |
 | **ML-01** | **Introduction to ML** | Supervised vs Unsupervised, ML Workflow | [🚀 Start](./01.%20Intro-Machine%20Learning) |
 | **ML-02** | **Linear Regression** | Sales forecasting, price prediction, Math intuition | [📈 Learn](./02.%20Linear%20Regression) |
 
