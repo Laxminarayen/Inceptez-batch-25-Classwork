@@ -1,447 +1,150 @@
-# Inceptez Batch-25 Classwork
+# 🚀 INCEPTEZ BATCH 25 
 
-Welcome to the **Inceptez Batch-25 Classwork Repository**. This README is a concise top-level guide: quick start, folder overview, and pointers to detailed session notebooks inside their respective folders.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Ready-orange.svg)](https://jupyter.org/)
+[![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
+[![AWS](https://img.shields.io/badge/AWS-Deploy-orange.svg)](https://aws.amazon.com/)
+[![MLOps](https://img.shields.io/badge/MLOps-Ready-green.svg)](#)
+[![AI](https://img.shields.io/badge/Generative%20AI-Included-purple.svg)](#)
 
----
+## 📋 Table of Contents
 
-## Quick start
+- [🎯 About](#about)
+- [🛠️ Prerequisites](#prerequisites)  
+- [🗺️ Learning Roadmap](#learning-roadmap)
+- [📚 Curriculum](#curriculum)
+- [🚀 Quick Start Guide](#quick-start-guide)
+- [🐍 Python for Data Science](#python-for-data-science)
+- [📊 Statistics](#introduction-to-statistics)
+- [🤖 Machine Learning](#machine-learning)
+- [🤝 Community & Support](#community--support)
 
+## About
 
-```bash
-git clone https://github.com/Laxminarayen/Inceptez-batch-25-Classwork.git
-cd Inceptez-batch-25-Classwork
+**Join Inceptez and become a Data Science Legend!** 🌟
+
+This comprehensive repository contains **46+ modules** covering everything you need to master the complete data science ecosystem:
+
+- **🐍 Python Programming**: From basics to advanced data manipulation
+- **📊 Statistics & Mathematics**: Statistical foundations for data science
+- **🤖 Machine Learning**: Supervised, unsupervised, and ensemble methods
+- **⚙️ MLOps**: Production-ready model deployment and monitoring
+- **☁️ Cloud Computing**: AWS, Docker, and scalable deployments
+- **🧠 Deep Learning**: Neural networks, CNNs, RNNs, and transformers
+- **👁️ Computer Vision**: Image processing and object detection
+- **🔤 Natural Language Processing**: Text analysis and language models
+- **🎨 Generative AI**: GPT models, LangChain, RAG, and AI agents
+- **🔗 Multi-Agent Systems**: Advanced AI orchestration and enterprise applications
+- **👁️ Multimodal AI**: Vision-language models and cutting-edge AI architectures
+- **🔒 Production Security**: Enterprise deployment, monitoring, and governance
+
+### 🗺️ **Complete Module Structure:**
 ```
+📋 Core Foundations (01-19)
+├── 01: Python Fundamentals
+├── 02: Statistics
+├── 03: Machine Learning Algorithms, Deployment, MLOps & Production
 
-2. (Optional) Create and activate a virtual environment:
+## 🛠️ Prerequisites
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
+### Essential Knowledge:
+- **Mathematics**: Basic school-level math (algebra, geometry)
+- **Statistics**: Elementary statistics concepts (helpful but not mandatory)
+- **Programming**: No prior programming experience required - we start from scratch!
 
-3. (Optional) Install dependencies for demos/notebooks that include a requirements file:
+### What You'll Need:
+- **Computer**: Windows, macOS, or Linux
+- **Internet Connection**: For accessing cloud services and resources
+- **Time Commitment**: 10-15 hours per week for optimal progress
+- **Mindset**: Curiosity and persistence to tackle challenging problems
 
-```bash
-pip install -r Demo-Student-Datacollection/requirements.txt
-```
+### Recommended (Optional):
+- Basic familiarity with Excel or Google Sheets
+- High school mathematics refresher
+- Interest in data and problem-solving
 
-4. Launch Jupyter Lab or Notebook and open the notebooks you want to explore:
+<be>
 
-```bash
-jupyter lab
-```
+## 🗺️ Learning Roadmap
 
----
-## How to use this repository
+### 📅 Study Plans & Timelines:
 
-1. Open the folder for the session you want to study.
-2. Launch Jupyter and open the notebook (`.ipynb`) for that session.
-3. If a notebook lists required packages, install them into your active environment.
-4. Run notebook cells sequentially; notebooks include explanations and runnable examples.
+| Plan Type | Duration | Focus | Link |
+|-----------|----------|-------|---------|
+| **🎯 Complete RoadMap** | 6-12 months | Full curriculum with projects | [🗺️ View Plan](https://docs.google.com/spreadsheets/d/13EVKNbPUYTKVL8lcT3-x1Cf8fL5pxiTrI9MRI6wUeg4/edit?usp=sharing) |
+| **⚡ Short Plan** | 3-6 months | Core concepts & essentials | [🚀 Quick Start](https://docs.google.com/spreadsheets/d/1uiSSkVBZzVCmpc6ewM5y4ZoRCWGRDk08o-Pk_2q5BcU/) |
+| **🧠 Deep Learning Plan** | 4-8 months | Neural networks & AI | [📈 AI Focus](https://docs.google.com/spreadsheets/d/18r94CytRiFCf7WKfiGqKbCNywhoxNuqJ/edit?usp=sharing&ouid=113375722781003774560&rtpof=true&sd=true) |
 
----
+### 🏁 Learning Tracks:
 
-## Contributing
+#### 🌱 **Beginner Track** (0-3 months)
+- Python fundamentals & data manipulation
+- Statistics and probability basics
+- First machine learning models
 
-If you'd like to suggest improvements (typos, clearer examples), open an issue or submit a small PR. Prefer focused changes per PR.
+#### 🌿 **Intermediate Track** (3-6 months) 
+- Advanced ML algorithms
+- Model evaluation & deployment
+- Unsupervised learning techniques
 
----
+#### 🌳 **Advanced Track** (6-12 months)
+- Deep learning & neural networks
+- NLP and computer vision
+- Generative AI and transformers
 
-## License & Contact
-
-- No license file is included by default. If you want to publish or reuse broadly, consider adding a license (e.g., MIT).
-- For questions, contact the repository owner (GitHub user `Laxminarayen`).
-
----
-
-(End of README)
-
-## 📅 Session 3: Control Statements, Loops & Time Complexity  
-📆 Date: 6th July 2025
-
-Introduced control flow statements and loop structures, including real-world examples and performance analysis.
-
-### ✅ Topics:
-- `if`, `elif`, `else` with decision-making analogies
-- `for`, `while` loops using strings, lists, dicts
-- Iteration helpers: `range()`, `enumerate()`, `zip()`, `reversed()`, `sorted()`
-- Control tools: `break`, `continue`, `pass`
-- Time complexity of patterns (linear, nested, etc.)
-
-📁 Folder:  
-[`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity)
-
-📓 Notebook:  
-| File | Description |
-|------|-------------|
-| `Class3_ControlStructures_Explained_WithTimeComplexity.ipynb` | Looping constructs with time complexity and use cases |
+#### 🚀 **Expert Track** (9-15 months)
+- MLOps and production systems
+- Advanced AI architectures
+- Research and innovation projects
 
 ---
 
-## 📅 Session 4: Bitwise Operators, Augmented Arithmetic, Functions & Classes  
-📆 Date: 12th July 2025
+## 📚 Curriculum
 
-Covered Python’s low-level operators and built up to object-oriented concepts with clear examples and memory impact.
+### 🎆 Core Learning Modules
 
-### ✅ Topics:
-- **Bitwise Operators**: `&`, `|`, `^`, `~`, `<<`, `>>`
-- **Augmented Arithmetic**: `+=`, `-=`, `*=`, etc. and efficiency
-- **Functions**: Definition, parameters, return values, scope
-- **Function Overloading & Polymorphism**
-- **Classes**: `__init__`, methods, objects
-- Duck Typing and Pythonic behavior
-- Included bonus: Merge Sort & Recursion explanation
+| Module | Topic | Hands-on Projects | Link |
+|--------|--------|-------------------|------|
+| **🐍** | **Python for Data Science** | Data analysis & visualization | [📊 Explore](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/01.%20Python) |
+| **📊** | **Introduction to Statistics** | Statistical analysis projects | [📈 Learn](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/02.%20Statistics) |
+| **🤖** | **Machine Learning** | Predictive models & algorithms | [🎡 Build](https://github.com/nursnaaz/FutureDataScienceLegends/tree/main/04.%20Linear%20Regression) |
+| **🧠** | **Deep Learning** | Neural networks & AI models | [🔮 Discover](<TO BE TAKEN>) |
+| **🔤** | **Natural Language Processing** | Text analysis & language models | [🔍 Process](<TO BE TAKEN>) |
 
-📁 Folder:  
-[`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes)
+## 🎯 What Makes This Special?
 
-📓 Notebook:  
-| File | Description |
-|------|-------------|
-| `Class4_Bitwise_Augment_Functions_Classes_OrderedFinal.ipynb` | Bitwise, augmented ops, functions, classes, and recursion with merge sort |
+- **📝 Real-world Projects**: Every module includes practical, industry-relevant projects
+- **🚀 Production-Ready**: Learn deployment with Docker, AWS, and cloud platforms
+- **🔄 Continuous Learning**: From basics to cutting-edge AI research
+- **🤝 Community Support**: Learn alongside fellow data science enthusiasts
+- **🏆 Certification Path**: Build a portfolio worthy of top tech companies
 
 ---
 
-## 📅 Session 5: Arguments, Function Overloading, Recursion & Searching  
-📆 Date: 13th July 2025
+# 🐍 Python for Data Science
 
-We explored flexible ways to define and call functions, revisited recursion deeply with visual logic, and laid the foundation for searching techniques in Python.
+> **Master Python programming from zero to data science hero!**
 
-### ✅ Topics:
-- **Function Arguments**:
-  - Positional, default, `*args`, `**kwargs`
-- **Function Overloading** in Python using flexible parameters
-## Recent / final folders
+### 🎡 Learning Journey:
 
-- `Python-Class15-Hypothesis1-Inferential2-Pandas` — This session built upon our introduction to inferential statistics by focusing on hypothesis testing. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic.
-- `Python-Class16-17-Hypothesis2-Tests-Pandas`
-- `Python-Class17-DataPreprocessing`
-- `01. Intro-Machine Learning`
-- `02. Linear Regression`
+| Phase | Topic | Skills You'll Gain | Link |
+|-------|-------|-------------------|------|
+| **1️⃣** | **Foundations & Setup** | Python setup, execution types, identifiers | [🚀 Begin](./Python-Class-1-Runningtypes-Identifiers-Variables) |
+| **2️⃣** | **Memory & Structures** | Memory behavior, core data structures | [🧠 Memory](./01.%20Python%20Fundamentals/Python-Class2-Memory-Properties-DataStructures) |
+| **3️⃣** | **Control Flow** | Loops, conditional logic, Time Complexity | [⚙️ Logic](./01.%20Python%20Fundamentals/Python-Class3-ControlStatements-Loops-TimeComplexity) |
+| **4️⃣** | **Operators & Functions** | Bitwise ops, augmented arithmetic, basic recursion | [🔧 Tools](./01.%20Python%20Fundamentals/Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) |
+| **5️⃣** | **Advanced Algorithms** | Function overloading, `*args`, searching algos | [🔍 Search](./01.%20Python%20Fundamentals/Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) |
+| **6️⃣** | **Optimization** | List/Dict comprehensions, speed optimization | [⚡ Speed](./01.%20Python%20Fundamentals/Python-Class6-List-Dictionary-Comprehension-problems) |
+| **7️⃣** | **OOP Fundamentals** | Classes, objects, inheritance | [🏗️ Build](./01.%20Python%20Fundamentals/Python-Class7-Classes-Introduction) |
+| **8️⃣** | **Advanced OOP & Strings** | Variable scoping (LEGB), string manipulation | [🧩 Design](./01.%20Python%20Fundamentals/Python-Class8-ClassesAdvanced-StringManipulations) |
+| **9️⃣** | **NumPy & Pandas Intro** | Arrays vs Lists, basic data operations | [📊 Analyze](./01.%20Python%20Fundamentals/Python-Class9-Numpy-Pandas-Intro) |
+| **🔟** | **Pandas Internals** | Data types, storage efficiency, representations | [💾 Store](./01.%20Python%20Fundamentals/Python-Class10-Pandas-Basics) |
+| **1️⃣1️⃣** | **Data Wrangling** | Intermediate transformation, cleaning techniques | [🧹 Clean](./01.%20Python%20Fundamentals/Python-Class11-Pandas-Intermediate) |
 
----
-
-### ✅ Topics Covered:
-
-- 🧱 **Advanced Classes & OOP Enhancements**  
-  - Class vs Instance variables  
-  - `@classmethod` and `@staticmethod` usage  
-  - Encapsulation and abstraction  
-  - Magic (dunder) methods: `__init__`, `__str__`, `__repr__`, `__eq__`, `__len__` etc.  
-  - Operator overloading through magic methods  
-
-- 🔤 **String Processing Techniques**  
-  - Slicing, indexing, and immutable behavior  
-  - Common methods: `split()`, `join()`, `replace()`, `strip()`, `find()`, `count()`  
-  - f‑strings and formatted output  
-    
-📁 **Folder**:  
-[`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) 
-
-## 📅 Session 9: NumPy & Pandas - Foundation for Data Science  
-📆 Date: 27th July 2025
-
-Introduced the core libraries that power Python-based data science: **NumPy** for numerical array operations and **Pandas** for structured data manipulation. Emphasis was placed on understanding the difference between native Python lists and NumPy arrays, and how Pandas helps in working with tabular data efficiently.
-
-### ✅ Topics Covered:
-- 📊 **NumPy**:
-  - Difference between Lists vs Arrays
-  - Creating arrays (`np.array`, `np.arange`, `np.zeros`, etc.)
-  - Reshaping, indexing, slicing
-  - Broadcasting rules and element-wise operations
-  - Speed & memory benefits over Python lists
-
-- 📈 **Pandas**:
-  - Creating and working with `Series` and `DataFrame`
-  - Reading data from CSV files
-  - Viewing and summarizing data (`head()`, `tail()`, `info()`, `describe()`)
-  - Filtering, indexing, and column/row access
-
-📁 **Folder**:  
-[`Beginner_Numpy_Pandas_Notebook.ipynb`](./Python-Class9-Numpy-Pandas-Intro)
-
-
-## 📅 Session 10: Pandas Basics 
-📆 Date: 02nd August 2025
-
-This class dives into **how pandas stores and represents data** internally, with a focus on different data types and how to work with them effectively.
-
-## 🎯 Learning Objectives
-By the end of this class, you should be able to:
-- Identify different pandas data types (`int64`, `float64`, `object`, `bool`, `datetime64`, `category`, `string`)
-- Convert columns between types using `astype()` and other methods
-- Work with **datetime** columns for time-based analysis
-- Use **categorical** data for memory efficiency and better performance
-- Perform **string operations** directly on DataFrame columns
-
-📁 **Folder**:  
-[`Class10_Pandas_Data_Types_Documented.ipynb`](./Python-Class10-Pandas-Basics)
-
-## 📅 Session 11: Pandas Intermediate 
-📆 Date: 03rd August 2025
-
-This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**.  
-
-## 📅 Session 12: Descriptive Statistics (Part 1) with Pandas  
-📆 Date: 09th August 2025
-
-This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.  
-
-### ✅ Topics Covered:  
-- 📊 **Measures of Central Tendency**  
-  - Mean, Median, Mode  
-  - When to use each measure  
-- 📈 **Measures of Dispersion**  
-  - Variance, Standard Deviation, Range  
-  - Why dispersion matters in real-world datasets  
-- 📐 **Shape of Distribution**  
-- 🔍 **Exploratory Data Analysis (EDA) with Pandas**  
-  - `describe()` method  
-  - Custom summary statistics (`.mean()`, `.median()`, `.mode()`, `.var()`, `.std()`)  
-- 🧩 **Hands-on Examples**  
-  - Applying descriptive statistics on sample datasets  
-  - Interpreting results in business & data science contexts  
-
-📁 **Folder**:  
-[`Python-Class12-DescriptiveStatistics-Pandas`](./Python-Class12-DescriptiveStatistics-Pandas)  
-
-📓 **Notebook**:  
-| File | Description |  
-|------|-------------|  
-| `DescriptiveStatistics-Classwork.ipynb` | Covers descriptive statistics using Pandas with examples and explanations |  
-
-## 📅 Session 13: Descriptive Statistics (Part 2) with Pandas  
-📆 Date: 10th August 2025  
-
-This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).  
-
-### ✅ Topics Covered:  
-- 🔁 **Review of Descriptive Statistics Basics**  
-  - Central tendency (mean, median, mode)  
-  - Dispersion (variance, standard deviation, range)  
-
-- 📊 **Advanced Summary Measures**  
-  - Percentiles and Quartiles  
-  - Interquartile Range (IQR)  
-  - Outlier detection using IQR  
-
-- 🔗 **Relationships Between Variables**  
-  - Covariance  
-  - Correlation (`.corr()`)  
-  - Heatmaps and pairwise correlation analysis  
-
-- 🛠 **Hands-on EDA with Pandas**  
-  - Applying advanced statistical methods to real datasets  
-  - Identifying patterns and relationships in tabular data  
-  - Preparing insights for visualisation and hypothesis testing  
-
-📁 **Folder**:  
-[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  
-
-## 📅 Session 14: Inferential Statistics (Part 1) with Pandas  
-📆 Date: 16th August 2025  
-
-This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  
-
-### ✅ Topics Covered:  
-- 🔑 **Introduction to Inferential Statistics**  
-  - Difference between descriptive and inferential approaches  
-  - Population vs Sample concepts  
-  - Why we need inference in data science  
-
-- 🎲 **Probability Foundations**  
-  - Random variables and distributions  
-  - Sampling distributions  
-  - Law of Large Numbers & Central Limit Theorem (CLT)  
-
-- 📏 **Estimation Techniques**  
-
-|------|-------------|  
-| `OneSampleZ-Classwork.ipynb` | Covers the foundations of hypothesis testing and demonstrates one-sample Z-tests using Pandas |  
-
-## 📅 Session 16 & 17: Hypothesis Testing (Inferential Statistics – Part 3 & 4) with Pandas  
-📆 Date: 23rd & 24th August 2025  
-
-These sessions extended our study of **hypothesis testing** by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the **right test for the right scenario**, applying it in Pandas, and interpreting the results in the context of data-driven decision-making.  
-
-### ✅ Topics Covered:  
-- 🔄 **Review of Hypothesis Testing Framework**  
-  - Null (H₀) vs Alternative (H₁)  
-  - Errors in testing (Type I & II)  
-  - Decision rules and p-value interpretation  
-
-- 📊 **Different Hypothesis Tests**  
-  - **One-Sample Tests**: Z-test, T-test    
-  - **Chi-Square Test** for independence of categorical variables
-  - **F-Test** Test for variance
-
-- 📐 **When to Use Which Test?**  
-  - Comparing proportions vs means  
-  - Parametric vs non-parametric scenarios  
-  - Practical business/data applications  
-
-- 🛠 **Hands-on in Pandas & Python**  
-  - Performing hypothesis tests step by step  
-  - Using datasets to apply Z, T, Chi-Square, and F test
-  - Interpreting outputs to form business insights  
-
-📁 **Folder**:  
-[`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas)  
-
-📓 **Notebook**:  
-| File | Description |  
-|------|-------------|  
-|| `DifferentHypothesisTests.ipynb` | Demonstrates multiple hypothesis tests (Z, T, Chi-Square, ANOVA) with examples and real-world use cases |  
-
-## 📅 Session 17: Data Preprocessing for Machine Learning  
-📆 Date: 30th August 2025  
-
-This session focused on preparing raw data for machine learning algorithms. Data preprocessing is a critical step that directly impacts model performance and accuracy.  
-
-### ✅ Topics Covered:  
-- 🧼 **Handling Missing Data**  
-  - Identifying missing values with `isnull()` and `isna()`  
-  - Strategies: dropping, imputation (mean, median, mode, forward/backward fill)  
-  
-- 📊 **Data Scaling & Normalization**  
-  - StandardScaler (z-score normalization)  
-  - MinMaxScaler (range scaling)  
-  - When to use which scaler  
-  
-- 🏷️ **Encoding Categorical Variables**  
-  - Label Encoding for ordinal data  
-  - One-Hot Encoding for nominal data  
-  - `pd.get_dummies()` and sklearn's `OneHotEncoder`  
-  
-- 🔍 **Feature Engineering Basics**  
-  - Creating new features from existing ones  
-  - Handling datetime features  
-  - Binning and discretization  
-  
-- ✂️ **Splitting Data**  
-  - Train-test split  
-  - Importance of random state for reproducibility  
-
-📁 **Folder**:  
-[`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing)  
+### 🎯 Key Projects & Concepts:
+- **Algorithm Optimization**: Understand Big-O and optimize list vs. dictionary performance.
+- **Custom Data Structures**: Build robust applications using Object-Oriented Programming.
+- **Data Transformation Pipeline**: meaningful analysis using advanced Pandas techniques.
 
 ---
 
-## 📅 EXAM DETAILS
-
-### Part 1 – Online Quiz (MCQs)
-👉 Join Quiz Here: https://wayground.com/join?gc=07791682
-  - No login required – click the link.
-  - 1 minute per question ⏱
-  - Covers Python, Pandas, and Statistics (based on our class material).
-  - Please attempt all questions in one go. PLEASE DO NOT refresh in the middle!! 
-  -  This Quiz link will be active till: Aug 31, 2025, 11:59 AM IST
-
-### Part 2 – Coding Assignment (Application-based)
-👉 Download Notebook – 6 Questions
-📂 Instructions:
-  - Questions link: https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/blob/main/Test-1/InceptezExam1.ipynb
-  - Open the .ipynb file in Google Colab (File → Upload Notebook) or Jupyter.
-  - Enter your Name at the top.
-  - Solve all 6 coding questions – each has clear input, and expected output.
-  - Save as YourName_Assessment.ipynb.
-  - Upload your completed notebook to this link:
-  - 👉 [Upload Link Here] (https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
-
----
-
-# 🤖 Machine Learning Sessions
-
-## 📅 ML Session 1: Introduction to Machine Learning  
-📆 Date: October 25 2025  
-
-This session introduced the fundamentals of Machine Learning, providing a comprehensive overview of what ML is, its types, and real-world applications.  
-
-### ✅ Topics Covered:  
-- 🧠 **What is Machine Learning?**  
-  - Difference between AI, ML, and Deep Learning  
-  - How machines learn from data  
-  
-- 📋 **Types of Machine Learning**  
-  - Supervised Learning (Classification & Regression)  
-  - Unsupervised Learning (Clustering & Dimensionality Reduction)  
-  - Reinforcement Learning basics  
-  
-- 🎯 **ML Workflow**  
-  - Problem definition  
-  - Data collection and preprocessing  
-  - Model selection and training  
-  - Evaluation and deployment  
-  
-- 📊 **Real-world Applications**  
-  - Recommendation systems  
-  - Image recognition  
-  - Fraud detection  
-  - Predictive analytics  
-
-📁 **Folder**:  
-[`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning)  
-
----
-
-## 📅 ML Session 2: Linear Regression  
-📆 Date: October 26 2025  
-
-This session covered Linear Regression, one of the fundamental algorithms in machine learning for predicting continuous values.  
-
-### ✅ Topics Covered:  
-- 📈 **Linear Regression Fundamentals**  
-  - What is regression?  
-  - Simple vs Multiple Linear Regression  
-  - Assumptions of linear regression  
-  
-- 📊 **Mathematical Foundation**  
-  - Equation of a line: y = mx + b  
-  
-📁 **Folder**:  
-[`02. Linear Regression`](./02.%20Linear%20Regression)  
-
-
----
-
-# Inceptez Batch-25 Classwork
-
-Welcome to the **Inceptez Batch-25 Classwork Repository**!  
-This repository includes all the class notes, code examples, and practice files used throughout our Data Science & Machine Learning course at Inceptez Technologies.  
-
----
-
-## 📂 Folder Structure
-
-| Folder | Description |
-|--------|-------------|
-| [`Python-Class-1-Runningtypes-Identifiers-Variables`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Python setup, execution types, identifiers |
-| [`Python-Class2-Memory-Properties-DataStructures`](./Python-Class2-Memory-Properties-DataStructures) | Memory behavior, data structures |
-| [`Python-Class3-ControlStatements-Loops-TimeComplexity`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Control statements and time complexity |
-| [`Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise, functions, classes, recursion |
-| [`Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Function arguments, overloading, recursion, searching algorithms | 
-| [`Python-Class6-List-Dictionary-Comprehension-problems`](./Python-Class6-List-Dictionary-Comprehension-problems) | List Comprehension, Dictionary Comprehension, Time Complexity of `list` vs `dict`,  Why dictionaries are optimized for speed |
-| [`Python-Class7-Classes-Introduction`](./Python-Class7-Classes-Introduction) |  **classes**, **objects**, and **inheritance** |
-| [`Python-Class8-ClassesAdvanced-StringManipulations`](./Python-Class8-ClassesAdvanced-StringManipulations)                                 | Explores class design, variable scoping (LEGB), and string handling in depth |
-|  [`Python-Class9-Numpy-Pandas-Intro`](./Python-Class9-Numpy-Pandas-Intro) | Covers basic NumPy & Pandas operations with beginner-friendly explanations, comparisons, and demos |
-|  [`Python-Class10-Pandas-Basics`](./Python-Class10-Pandas-Basics) | This class dives into **how pandas stores and represents data** internally, with a focus on different data types and how to work with them effectively. |
-|  [`Python-Class11-Pandas-Intermediate`](./Python-Class11-Pandas-Intermediate) | This class builds on your basic Pandas knowledge to cover **intermediate data transformation and wrangling techniques**. |
-| [`Python-Class12-Descriptive-Statistics`](./Python-Class12-DescriptiveStatistics-Pandas)` | This session introduced **Descriptive Statistics** using Python and Pandas. We focused on summarising and understanding datasets through statistical measures rather than just raw data.   |  
-|[`Python-Class13-DescriptiveStatistics2-Pandas`](./Python-Class13-DescriptiveStatistics2-Pandas)  | This session continued our in-depth exploration of **Descriptive Statistics** using Pandas, building on the basics covered in Session 12. We focused on richer statistical summaries, relationships between variables, and practical use cases in exploratory data analysis (EDA).   |
-| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas)  | This session marked the transition from **Descriptive** to **Inferential Statistics**, focusing on how we move beyond summarizing data to making **predictions and generalizations about populations** using sample data.  | 
-| Folder | Description |
-|--------|-------------|
-| [`Python-Class14-Inferential1-Pandas`](./Python-Class14-Inferential1-Pandas) | This session marked the transition from Descriptive to Inferential Statistics, focusing on how we move beyond summarizing data to making predictions and generalizations about populations using sample data. |
-| [`Python-Class15-Hypothesis1-Inferential2-Pandas`](./Python-Class15-Hypothesis1-Inferential2-Pandas) | This session built upon our introduction to inferential statistics by focusing on hypothesis testing. Students learned how to frame statistical questions, test claims with data, and interpret results using Pandas and statistical logic. |
-| [`Python-Class16-17-Hypothesis2-Tests-Pandas`](./Python-Class16-17-Hypothesis2-Tests-Pandas) | These sessions extended our study of hypothesis testing by exploring multiple statistical tests beyond the one-sample Z-test. The focus was on selecting the right test for the right scenario, applying it in Pandas, and interpreting the results in the context of data-driven decision-making. |
-| [`Python-Class17-DataPreprocessing`](./Python-Class17-DataPreprocessing) | Data preprocessing techniques including handling missing values, scaling, encoding categorical variables, feature engineering, and train-test splitting. |
-| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | Introduction to Machine Learning concepts, types (supervised/unsupervised), ML workflow, and real-world applications. |
-| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression fundamentals, mathematical foundations, implementation with sklearn, and model evaluation metrics. |
----
-
-## 🛠 Getting Started
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/Laxminarayen/Inceptez-batch-25-Classwork.git
-   cd Inceptez-batch-25-Classwork
