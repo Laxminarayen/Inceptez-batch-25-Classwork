@@ -80,7 +80,7 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 | **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](02.%20Statistics/02.%20DescriptiveStatistics2-Pandas/) |
 | **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](02.%20Statistics/03.%20Inferential1-Pandas/) |
 | **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](02.%20Statistics/04.%20Hypothesis1-Inferential2-Pandas/) |
-| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 Decide](02.%20Statistics/05.%20Hypothesis2-Inferential3-Pandas/) |
+| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 PART1](02.%20Statistics/05.%20Hypothesis2-Inferential3-Pandas/), [📈 PART2](02.%20Statistics/06.%20ANNOVA/) |
 ### 🎯 Key Concepts & Applications:
 - **Exploratory Data Analysis (EDA)**: Uncover hidden patterns and relationships in raw datasets.
 - **Statistical Inference**: Make confident generalizations about large populations using small samples.
