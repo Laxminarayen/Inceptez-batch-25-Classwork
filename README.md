@@ -92,15 +92,30 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 
 > **Transform data into intelligent predictions and automated decisions!**
 
-### 🎆 **Core ML Modules**
+### 🧠 Supervised Learning & MLOps
 
-| Algorithm | Use Case | Industry Applications | Link |
-|-----------|----------|---------------------|------|
-| **1️⃣8️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | 
-| **1️⃣9️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | 
-[🧹 Prep](./Python-Class17-DataPreprocessing) |
-| **ML-01** | **Introduction to ML** | Supervised vs Unsupervised, ML Workflow | [🚀 Start](./01.%20Intro-Machine%20Learning) |
-| **ML-02** | **Linear Regression** | Sales forecasting, price prediction, Math intuition | [📈 Learn](./02.%20Linear%20Regression) |
+| Module | Topic | Key Concepts | Link |
+| :--- | :--- | :--- | :--- |
+| **01** | **Data Preprocessing** | Cleaning, Scaling, Encoding | [🧹 Prep](./03.%20Machine%20Learning%20Algorithms/01.%20DataPreprocessing/) |
+| **02** | **KNN & Image Proc.** | K-Nearest Neighbors, Basic CV | [🖼️ Vision](./03.%20Machine%20Learning%20Algorithms/02.%20Image%20Processing%20and%20KNN/) |
+| **03** | **ML Introduction** | Workflow, Types of ML | [🚀 Intro](./03.%20Machine%20Learning%20Algorithms/03.%20Intro-Machine%20Learning/Presentation/) |
+| **04-05** | **Linear Regression** | Simple/Multiple Regression, Code-along | [📈 Linear](./03.%20Machine%20Learning%20Algorithms/04.%20Linear%20Regression/) |
+| **06** | **Deployment** | Streamlit, GCP Cloud Deployment | [☁️ Deploy](./03.%20Machine%20Learning%20Algorithms/06.%20StreamlitGCPDeployment/) |
+| **07** | **Polynomial Reg.** | Non-linear relationships | [〰️ Poly](./03.%20Machine%20Learning%20Algorithms/07.%20Polynomial%20Regression/) |
+| **08** | **Regularization** | Lasso, Ridge, Handling Overfitting | [⚖️ Tune](./03.%20Machine%20Learning%20Algorithms/08.%20Regularization/) |
+| **09** | **Logistic Regression** | Binary Classification, Sigmoid | [🎯 Classify](./03.%20Machine%20Learning%20Algorithms/09.%20Logistic%20Regression/) |
+| **10** | **Decision Trees** | CART, Splitting criteria | [🌳 Tree](./03.%20Machine%20Learning%20Algorithms/10.%20Decision%20Tree/) |
+| **11** | **Ensemble Learning** | Bagging, Boosting, Random Forest | [🌲 Forest](./03.%20Machine%20Learning%20Algorithms/11.%20Ensemble%20Learning/) |
+| **12** | **SVM** | Support Vector Machines, Kernels | [⚔️ SVM](./03.%20Machine%20Learning%20Algorithms/12.%20Support%20Vector%20Machine/) |
+
+### 🌌 Unsupervised Learning
+
+| Topic | Key Concepts | Link |
+| :--- | :--- | :--- |
+| **K-Means Clustering** | Centroid-based clustering, Elbow method | [📍 K-Means](./03.%20Machine%20Learning%20Algorithms/13.%20Unsupervised%20Learning/Kmeans%20Practical/) |
+| **Hierarchical** | Dendrograms, Agglomerative clustering | [🧬 Hierarchy](./03.%20Machine%20Learning%20Algorithms/13.%20Unsupervised%20Learning/Hierrachical%20Practical/) |
+| **DBSCAN** | Density-based clustering, Outlier detection | [🌑 Density](./03.%20Machine%20Learning%20Algorithms/13.%20Unsupervised%20Learning/DBScan%20Practical/) |
+| **PCA** | Dimensionality Reduction, Feature Extraction | [📉 PCA](./03.%20Machine%20Learning%20Algorithms/13.%20Unsupervised%20Learning/PCA/) |
 
 ---
 
