@@ -80,7 +80,7 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 | **1️⃣3️⃣** | **Descriptive Statistics II** | EDA, variable relationships, correlation analysis | [🔍 Explore](02.%20Statistics/02.%20DescriptiveStatistics2-Pandas/) |
 | **1️⃣4️⃣** | **Inferential Statistics I** | Population vs. Sample, making predictions, estimations | [🔮 Infer](02.%20Statistics/03.%20Inferential1-Pandas/) |
 | **1️⃣5️⃣** | **Hypothesis Testing I** | Framing hypotheses, testing claims, statistical logic | [🧪 Test](02.%20Statistics/04.%20Hypothesis1-Inferential2-Pandas/) |
-| **1️⃣6️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 PART1](02.%20Statistics/05.%20Hypothesis2-Inferential3-Pandas/), [📈 PART2](02.%20Statistics/06.%20ANNOVA/) |
+| **1️⃣6️⃣** & **1️⃣7️⃣** | **Hypothesis Testing II** | Z-Test, T-Test, ANOVA, data-driven decision making | [📈 PART1](02.%20Statistics/05.%20Hypothesis2-Inferential3-Pandas/), [📈 PART2](02.%20Statistics/06.%20ANNOVA/) |
 ### 🎯 Key Concepts & Applications:
 - **Exploratory Data Analysis (EDA)**: Uncover hidden patterns and relationships in raw datasets.
 - **Statistical Inference**: Make confident generalizations about large populations using small samples.
@@ -96,7 +96,9 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 
 | Algorithm | Use Case | Industry Applications | Link |
 |-----------|----------|---------------------|------|
-| **1️⃣7️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | [🧹 Prep](./Python-Class17-DataPreprocessing) |
+| **1️⃣8️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | 
+| **1️⃣9️⃣** | **Data Preprocessing** | Missing values, scaling, encoding, train-test split | 
+[🧹 Prep](./Python-Class17-DataPreprocessing) |
 | **ML-01** | **Introduction to ML** | Supervised vs Unsupervised, ML Workflow | [🚀 Start](./01.%20Intro-Machine%20Learning) |
 | **ML-02** | **Linear Regression** | Sales forecasting, price prediction, Math intuition | [📈 Learn](./02.%20Linear%20Regression) |
 
@@ -115,37 +117,6 @@ The codebase has been **cleaned and refactored** to ensure easy navigation and i
 - **Task:** Solve 6 coding questions in the provided notebook.
 - **Notebook:** [Download Here](https://github.com/Laxminarayen/Inceptez-batch-25-Classwork/blob/main/Test-1/InceptezExam1.ipynb)
 - **Submission:** [Upload to Google Drive](https://drive.google.com/drive/folders/1duYEIhCOEzk0FbLhaeZgqVwA0QP8O2jx?usp=drive_link)
-
----
-
-## 📂 Folder Structure
-
-<details>
-<summary>Click to expand full folder list</summary>
-
-| Folder | Description |
-|--------|-------------|
-| [`Python-Class-1...`](./Python-Class-1-Runningtypes-Identifiers-Variables) | Identifiers & Variables |
-| [`Python-Class2...`](./Python-Class2-Memory-Properties-DataStructures) | Memory & Data Structures |
-| [`Python-Class3...`](./Python-Class3-ControlStatements-Loops-TimeComplexity) | Loops & Time Complexity |
-| [`Python-Class4...`](./Python-Class4-BitwiseOperators-AugementedArithmetics-Functions-Classes) | Bitwise & Functions |
-| [`Python-Class5...`](./Python-Class5-Arguments-FunctionOverloading-Recurssion-SearchingAlgos) | Recursion & Searching | 
-| [`Python-Class6...`](./Python-Class6-List-Dictionary-Comprehension-problems) | Comprehensions |
-| [`Python-Class7...`](./Python-Class7-Classes-Introduction) | Classes Introduction |
-| [`Python-Class8...`](./Python-Class8-ClassesAdvanced-StringManipulations) | Advanced Strings & OOP |
-| [`Python-Class9...`](./Python-Class9-Numpy-Pandas-Intro) | NumPy & Pandas Intro |
-| [`Python-Class10...`](./Python-Class10-Pandas-Basics) | Pandas Basics |
-| [`Python-Class11...`](./Python-Class11-Pandas-Intermediate) | Pandas Intermediate |
-| [`Python-Class12...`](./Python-Class12-DescriptiveStatistics-Pandas) | Descriptive Statistics I |
-| [`Python-Class13...`](./Python-Class13-DescriptiveStatistics2-Pandas) | Descriptive Statistics II |
-| [`Python-Class14...`](./Python-Class14-Inferential1-Pandas) | Inferential Statistics I |
-| [`Python-Class15...`](./Python-Class15-Hypothesis1-Inferential2-Pandas) | Hypothesis Testing I |
-| [`Python-Class16-17...`](./Python-Class16-17-Hypothesis2-Tests-Pandas) | Hypothesis Testing II |
-| [`Python-Class17...`](./Python-Class17-DataPreprocessing) | Data Preprocessing |
-| [`01. Intro-Machine Learning`](./01.%20Intro-Machine%20Learning) | ML Introduction |
-| [`02. Linear Regression`](./02.%20Linear%20Regression) | Linear Regression |
-
-</details>
 
 ---
 
